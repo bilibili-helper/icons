@@ -27,6 +27,10 @@ import {
 import { getSvgo, fetch, pushObjLeafNodesToArr, handleError } from './utils';
 import chalk from 'chalk';
 
+const isTagElement = (element: any): element is cheerio.TagElement => {
+  return element?.attribs !== undefined;
+};
+
 const transformers = {
   /**
    * Pass SVG through SVGO to reduce size.
@@ -43,14 +47,16 @@ const transformers = {
   injectCurrentColor(svgRaw: string) {
     const $ = cheerio.load(svgRaw, { xmlMode: true });
     $('*').each((i, el) => {
-      Object.keys(el.attribs).forEach((attrKey) => {
-        if (['fill', 'stroke'].includes(attrKey)) {
-          const val = $(el).attr(attrKey);
-          if (val !== 'none') {
-            $(el).attr(attrKey, 'currentColor');
+      if (isTagElement(el)) {
+        Object.keys(el.attribs).forEach((attrKey) => {
+          if (['fill', 'stroke'].includes(attrKey)) {
+            const val = $(el).attr(attrKey);
+            if (val !== 'none') {
+              $(el).attr(attrKey, 'currentColor');
+            }
           }
-        }
-      });
+        });
+      }
     });
 
     return $.xml();
@@ -64,14 +70,16 @@ const transformers = {
   readyForJSX(svgRaw: string) {
     const $ = cheerio.load(svgRaw, { xmlMode: true });
     $('*').each((i, el) => {
-      Object.keys(el.attribs).forEach((attrKey) => {
-        if (attrKey.includes('-')) {
-          $(el).attr(_.camelCase(attrKey), el.attribs[attrKey]).removeAttr(attrKey);
-        }
-        if (attrKey === 'class') {
-          $(el).attr('className', el.attribs[attrKey]).removeAttr(attrKey);
-        }
-      });
+      if (isTagElement(el)) {
+        Object.keys(el.attribs).forEach((attrKey) => {
+          if (attrKey.includes('-')) {
+            $(el).attr(_.camelCase(attrKey), el.attribs[attrKey]).removeAttr(attrKey);
+          }
+          if (attrKey === 'class') {
+            $(el).attr('className', el.attribs[attrKey]).removeAttr(attrKey);
+          }
+        });
+      }
     });
 
     return $('svg')
@@ -260,7 +268,9 @@ export function getIcons(iconsCanvas: IFigmaCanvas): IIcons {
 export async function downloadSvgsToFs(urls: IIconsSvgUrls, icons: IIcons, onProgress: () => void) {
   await Promise.all(
     Object.keys(urls).map(async (iconId) => {
-      const processedSvg = await (await fetch(urls[iconId]))
+      const processedSvg = await (
+        await fetch(urls[iconId])
+      )
         .text()
         .then(async (svgRaw) => transformers.passSVGO(svgRaw))
         .then((svgRaw) => transformers.injectCurrentColor(svgRaw))
