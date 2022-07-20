@@ -316,3 +316,4 @@ export { default as ViewVerticalIcon } from './ViewVerticalIcon';
 export { default as WidthIcon } from './WidthIcon';
 export { default as ZoomInIcon } from './ZoomInIcon';
 export { default as ZoomOutIcon } from './ZoomOutIcon';
+export { default as PlaySolidIcon } from './PlaySolidIcon';

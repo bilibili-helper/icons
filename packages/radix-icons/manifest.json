@@ -318,7 +318,8 @@
       "view-vertical": "icons/15/view-vertical.svg",
       "width": "icons/15/width.svg",
       "zoom-in": "icons/15/zoom-in.svg",
-      "zoom-out": "icons/15/zoom-out.svg"
+      "zoom-out": "icons/15/zoom-out.svg",
+      "play-solid": "icons/15/play-solid.svg"
     }
   }
 }
