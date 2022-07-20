@@ -88,7 +88,7 @@ export default function Home() {
                       size="3"
                       css={{ display: 'flex', flexFlow: 'column', alignItems: 'start', mt: '$2', lineHeight: '25px' }}
                     >
-                      <IconLink href="https://www.figma.com/file/9Df5CaFUEomVzn20gRpaX3/Radix-Icons" target="_blank">
+                      <IconLink href="https://www.figma.com/file/c1Scy3DEBYG8X1NQjGZ2yg/Radix-Icons" target="_blank">
                         <Box as="span" css={{ mr: '$2' }}>
                           <FigmaLogoIcon />
                         </Box>

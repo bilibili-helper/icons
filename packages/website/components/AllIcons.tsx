@@ -1,6 +1,7 @@
 import React from 'react';
-import * as Icons from '@radix-ui/react-icons';
-import { Box, Grid, Text, Tooltip, styled } from '@modulz/design-system';
+import * as Icons from '@bilibilihelper/react-icons';
+import { Box, Grid, Text, Tooltip } from '@modulz/design-system';
+import { styled } from '@stitches/react';
 import { CopyToastVisibility } from './CopyToast';
 import { ChromelessButton } from './ChromelessButton';
 
@@ -24,6 +25,7 @@ export const AllIcons = React.memo(() => {
       <Box>
         <Typography />
         <Music />
+        <MusicSolid />
         <Abstract />
         <Logos />
       </Box>
@@ -50,12 +52,12 @@ const Label = styled(
     fontWeight: 500,
     lineHeight: '25px',
     letterSpacing: '-0.01em',
-  },
-  {
-    defaultVariants: {
-      size: 1,
-    },
   }
+  // {
+  //     defaultVariants: {
+  //         size: 1,
+  //     },
+  // },
 );
 
 const Group = styled(Grid, {
@@ -856,6 +858,19 @@ const Music = () => {
         </CopyButton>
         <CopyButton label="Speaker Off">
           <Icons.SpeakerOffIcon />
+        </CopyButton>
+      </Group>
+    </Box>
+  );
+};
+
+const MusicSolid = () => {
+  return (
+    <Box>
+      <Label>Music Solid</Label>
+      <Group>
+        <CopyButton label="Play">
+          <Icons.PlaySolidIcon />
         </CopyButton>
       </Group>
     </Box>

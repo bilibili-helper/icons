@@ -1,4 +1,4 @@
-import { styled } from '@modulz/design-system';
+import { styled } from '@stitches/react';
 
 export const CodeBlock = styled('pre', {
   backgroundColor: '$slate1',

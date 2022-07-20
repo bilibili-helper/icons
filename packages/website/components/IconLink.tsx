@@ -1,4 +1,4 @@
-import { styled } from '@modulz/design-system';
+import { styled } from '@stitches/react';
 
 export const IconLink = styled('a', {
   display: 'flex',

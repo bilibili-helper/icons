@@ -1,6 +1,7 @@
 import React from 'react';
 import useDarkMode from 'use-dark-mode';
-import { styled, Box, Flex, darkTheme } from '@modulz/design-system';
+import { Box, Flex, darkTheme } from '@modulz/design-system';
+import { styled } from '@stitches/react';
 import {
   CubeIcon,
   DownloadIcon,
@@ -72,40 +73,40 @@ export const Menu = () => {
           WebkitUserSelect: 'none',
         }}
       >
-        <MenuLink href="https://www.figma.com/file/9Df5CaFUEomVzn20gRpaX3/Radix-Icons" target="_blank">
+        <MenuLink href="https://www.figma.com/file/c1Scy3DEBYG8X1NQjGZ2yg/Radix-Icons" target="_blank">
           <Box as="span" css={{ mr: '$2' }}>
             <FigmaLogoIcon />
           </Box>
           Open in Figma
         </MenuLink>
-        <MenuLink href="https://raw.githubusercontent.com/radix-ui/icons/master/Radix-Icons.sketch" target="_blank">
-          <Box as="span" css={{ mr: '$2' }}>
-            <SketchLogoIcon />
-          </Box>
-          Download for Sketch
-        </MenuLink>
-        <MenuLink
-          href="https://raw.githubusercontent.com/radix-ui/icons/master/Radix-Icons.iconjar.zip"
-          target="_blank"
-        >
-          <Box as="span" css={{ mr: '$2' }}>
-            <IconJarLogoIcon />
-          </Box>
-          Download IconJar
-        </MenuLink>
-        <MenuLink href="https://raw.githubusercontent.com/radix-ui/icons/master/radix-icons.zip" target="_blank">
-          <Box as="span" css={{ mr: '$2' }}>
-            <DownloadIcon />
-          </Box>
-          Download SVG
-        </MenuLink>
-        <MenuLink href="https://www.npmjs.com/package/@radix-ui/react-icons" target="_blank">
+        {/*<MenuLink href="https://raw.githubusercontent.com/radix-ui/icons/master/Radix-Icons.sketch" target="_blank">*/}
+        {/*  <Box as="span" css={{ mr: '$2' }}>*/}
+        {/*    <SketchLogoIcon />*/}
+        {/*  </Box>*/}
+        {/*  Download for Sketch*/}
+        {/*</MenuLink>*/}
+        {/*<MenuLink*/}
+        {/*  href="https://raw.githubusercontent.com/radix-ui/icons/master/Radix-Icons.iconjar.zip"*/}
+        {/*  target="_blank"*/}
+        {/*>*/}
+        {/*  <Box as="span" css={{ mr: '$2' }}>*/}
+        {/*    <IconJarLogoIcon />*/}
+        {/*  </Box>*/}
+        {/*  Download IconJar*/}
+        {/*</MenuLink>*/}
+        {/*<MenuLink href="https://raw.githubusercontent.com/radix-ui/icons/master/radix-icons.zip" target="_blank">*/}
+        {/*  <Box as="span" css={{ mr: '$2' }}>*/}
+        {/*    <DownloadIcon />*/}
+        {/*  </Box>*/}
+        {/*  Download SVG*/}
+        {/*</MenuLink>*/}
+        <MenuLink href="https://www.npmjs.com/package/@bilibilihelper/react-icons" target="_blank">
           <Box as="span" css={{ mr: '$2' }}>
             <CubeIcon />
           </Box>
           Install with npm
         </MenuLink>
-        <MenuLink href="https://github.com/radix-ui/icons" target="_blank">
+        <MenuLink href="https://github.com/bilibili-helper/icons" target="_blank">
           <Box as="span" css={{ mr: '$2' }}>
             <GitHubLogoIcon />
           </Box>

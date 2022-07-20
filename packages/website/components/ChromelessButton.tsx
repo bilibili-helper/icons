@@ -1,4 +1,4 @@
-import { styled } from '@modulz/design-system';
+import { styled } from '@stitches/react';
 
 export const ChromelessButton = styled('button', {
   border: 0,
