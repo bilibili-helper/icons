@@ -1,5 +1,5 @@
 {
-  "name": "@bilibili-helper/react-icons",
+  "name": "@bilibilihelper/react-icons",
   "private": false,
   "version": "1.1.4",
   "license": "MIT",
@@ -35,5 +35,17 @@
     "@modulz/generate-icon-lib": "^0.2.1",
     "tsdx": "0.14.0"
   },
-  "gitHead": "313aeb1e821c4dcb9f2f70a4dc601feb5e5de3ca"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bilibili-helper/icons.git"
+  },
+  "keywords": [
+    "bilibilihelper",
+    "icons"
+  ],
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/bilibili-helper/icons/issues"
+  },
+  "homepage": "https://github.com/bilibili-helper/icons#readme"
 }
