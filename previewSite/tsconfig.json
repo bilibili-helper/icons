@@ -1,0 +1,69 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "rootDir": "./",
+        "outDir": "./docs",
+        "target": "es6",
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "allowJs": true,
+        // "checkJs": true,
+
+        "declaration": true,
+        "declarationDir": "./types",
+        //        "declarationMap": true,
+        // "emitDeclarationOnly": true, // This compiler run should only output d.ts files
+
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "jsx": "react",
+        "sourceMap": true,
+        "downlevelIteration": true,
+//        "importsNotUsedAsValues": "error",
+        "lib": [
+            "dom",
+            "dom.iterable",
+            "es2019"
+        ],
+        "skipLibCheck": true,
+        "skipDefaultLibCheck": true,
+        "typeRoots": [
+            "node_modules",
+            "./types"
+        ],
+        "types": [
+            "chrome",
+            "styled-components"
+        ],
+        "paths": {
+            "Libs/*": ["./src/libs/*"],
+            "Utils/*": ["./src/utils/*"],
+            "Components/*": ["./src/components/*"],
+            "Modules/*": ["./src/modules/*"],
+            "Pages/*": ["./src/pages/*"],
+            "Statics/*": ["./src/statics/*"],
+            "Styles/*": ["./src/styles/*"],
+            "Decorators/*": ["./src/decorators/*"],
+            "Views/*": ["./src/views/*"],
+            "Enums": ["./src/enums"],
+            "Enums/*": ["./src/enums/*"],
+            "Models/*": ["./src/models/*"],
+            "Database/*": ["./src/modules/features/database/*"],
+            "Types/*": ["./types/*"]
+        }
+    },
+    "exclude": [
+        "**/node_modules",
+        "**/.*/",
+        "**/*.test.ts",
+        "**/*.min.js",
+        "jest.config.js",
+        "./docs",
+        "./crxs",
+        "./dist-new",
+        "./dist",
+        "**/*.d.ts",
+        "**/*.d.ts.map"
+    ]
+}
