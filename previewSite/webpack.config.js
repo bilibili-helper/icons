@@ -39,7 +39,7 @@ module.exports = {
         filename: '[name].js',
         path: distPath,
         chunkFilename: '[name].bundle.js',
-        publicPath: '/',
+        publicPath: '.',
     },
     resolve: {
         mainFiles: ['index'],

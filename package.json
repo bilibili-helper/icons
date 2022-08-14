@@ -19,7 +19,7 @@
     },
     "scripts": {
         "build": "rm -rf dist/ && tsdx build --format es,cjs --entry src/index.js",
-        "watch": "rm -rf dist/ && tsdx watch --format es,cjs --entry src/index.js && webpack  --env production --config=./previewSite/webpack.config.js  --progress",
+        "watch": "rm -rf dist/ && tsdx watch --format es,cjs --entry src/index.js",
         "prepublishOnly": "npm run build",
         "buildPreview": "webpack  --env production --config=./previewSite/webpack.config.js --progress",
         "start": "webpack serve --hot --config=./previewSite/webpack.config.js --progress"

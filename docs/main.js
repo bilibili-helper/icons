@@ -1,4 +1,5 @@
 /******/ (() => { // webpackBootstrap
+/******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
 /***/ "./dist/index.js":
@@ -7,29 +8,30 @@
   \***********************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-"use strict";
 
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./reacticons.cjs.development.js */ "./dist/reacticons.cjs.development.js")
+  module.exports = __webpack_require__(/*! ./react-icons.cjs.development.js */ "./dist/react-icons.cjs.development.js")
 }
 
 
 /***/ }),
 
-/***/ "./dist/reacticons.cjs.development.js":
-/*!********************************************!*\
-  !*** ./dist/reacticons.cjs.development.js ***!
-  \********************************************/
+/***/ "./dist/react-icons.cjs.development.js":
+/*!*********************************************!*\
+  !*** ./dist/react-icons.cjs.development.js ***!
+  \*********************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
-"use strict";
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
+
 var React = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+var PropTypes = _interopDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
 function _objectWithoutPropertiesLoose(source, excluded) {
   if (source == null) return {};
@@ -46,7 +48,7 @@ function _objectWithoutPropertiesLoose(source, excluded) {
   return target;
 }
 
-var _excluded = ["color"];
+var _excluded = ["color", "iconType"];
 var AccessibilityIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded);
 
@@ -62,8 +64,14 @@ var AccessibilityIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 AccessibilityIconIcon.displayName = 'AccessibilityIconIcon';
+AccessibilityIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AccessibilityIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1 = ["color"];
+var _excluded$1 = ["color", "iconType"];
 var ActivityLogIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1);
 
@@ -79,8 +87,14 @@ var ActivityLogIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 ActivityLogIconIcon.displayName = 'ActivityLogIconIcon';
+ActivityLogIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ActivityLogIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$2 = ["color"];
+var _excluded$2 = ["color", "iconType"];
 var AlignBaselineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2);
 
@@ -96,8 +110,14 @@ var AlignBaselineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 AlignBaselineIconIcon.displayName = 'AlignBaselineIconIcon';
+AlignBaselineIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignBaselineIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$3 = ["color"];
+var _excluded$3 = ["color", "iconType"];
 var AlignBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$3);
 
@@ -112,8 +132,14 @@ var AlignBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 AlignBottomIconIcon.displayName = 'AlignBottomIconIcon';
+AlignBottomIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignBottomIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4 = ["color"];
+var _excluded$4 = ["color", "iconType"];
 var AlignCenterHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$4);
 
@@ -128,8 +154,14 @@ var AlignCenterHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_r
   }));
 });
 AlignCenterHorizontallyIconIcon.displayName = 'AlignCenterHorizontallyIconIcon';
+AlignCenterHorizontallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignCenterHorizontallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$5 = ["color"];
+var _excluded$5 = ["color", "iconType"];
 var AlignCenterVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$5);
 
@@ -144,8 +176,14 @@ var AlignCenterVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref
   }));
 });
 AlignCenterVerticallyIconIcon.displayName = 'AlignCenterVerticallyIconIcon';
+AlignCenterVerticallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignCenterVerticallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$6 = ["color"];
+var _excluded$6 = ["color", "iconType"];
 var AlignLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$6);
 
@@ -160,8 +198,14 @@ var AlignLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 AlignLeftIconIcon.displayName = 'AlignLeftIconIcon';
+AlignLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignLeftIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$7 = ["color"];
+var _excluded$7 = ["color", "iconType"];
 var AlignRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$7);
 
@@ -176,8 +220,14 @@ var AlignRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 AlignRightIconIcon.displayName = 'AlignRightIconIcon';
+AlignRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignRightIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$8 = ["color"];
+var _excluded$8 = ["color", "iconType"];
 var AlignTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$8);
 
@@ -192,8 +242,14 @@ var AlignTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 AlignTopIconIcon.displayName = 'AlignTopIconIcon';
+AlignTopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AlignTopIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$9 = ["color"];
+var _excluded$9 = ["color", "iconType"];
 var AllSidesIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$9);
 
@@ -209,8 +265,14 @@ var AllSidesIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 AllSidesIconIcon.displayName = 'AllSidesIconIcon';
+AllSidesIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AllSidesIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$a = ["color"];
+var _excluded$a = ["color", "iconType"];
 var AngleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$a);
 
@@ -226,8 +288,14 @@ var AngleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 AngleIconIcon.displayName = 'AngleIconIcon';
+AngleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AngleIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$b = ["color"];
+var _excluded$b = ["color", "iconType"];
 var ArchiveIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$b);
 
@@ -243,8 +311,14 @@ var ArchiveIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 ArchiveIconIcon.displayName = 'ArchiveIconIcon';
+ArchiveIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArchiveIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$c = ["color"];
+var _excluded$c = ["color", "iconType"];
 var ArrowBottomLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$c);
 
@@ -259,8 +333,14 @@ var ArrowBottomLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 ArrowBottomLeftIconIcon.displayName = 'ArrowBottomLeftIconIcon';
+ArrowBottomLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowBottomLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$d = ["color"];
+var _excluded$d = ["color", "iconType"];
 var ArrowBottomRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$d);
 
@@ -275,8 +355,14 @@ var ArrowBottomRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 ArrowBottomRightIconIcon.displayName = 'ArrowBottomRightIconIcon';
+ArrowBottomRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowBottomRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$e = ["color"];
+var _excluded$e = ["color", "iconType"];
 var ArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$e);
 
@@ -291,8 +377,14 @@ var ArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 ArrowDownIconIcon.displayName = 'ArrowDownIconIcon';
+ArrowDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$f = ["color"];
+var _excluded$f = ["color", "iconType"];
 var ArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$f);
 
@@ -307,8 +399,14 @@ var ArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 ArrowLeftIconIcon.displayName = 'ArrowLeftIconIcon';
+ArrowLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$g = ["color"];
+var _excluded$g = ["color", "iconType"];
 var ArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$g);
 
@@ -323,8 +421,14 @@ var ArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 ArrowRightIconIcon.displayName = 'ArrowRightIconIcon';
+ArrowRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$h = ["color"];
+var _excluded$h = ["color", "iconType"];
 var ArrowTopLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$h);
 
@@ -339,8 +443,14 @@ var ArrowTopLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ArrowTopLeftIconIcon.displayName = 'ArrowTopLeftIconIcon';
+ArrowTopLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowTopLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$i = ["color"];
+var _excluded$i = ["color", "iconType"];
 var ArrowTopRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$i);
 
@@ -355,8 +465,14 @@ var ArrowTopRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 ArrowTopRightIconIcon.displayName = 'ArrowTopRightIconIcon';
+ArrowTopRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowTopRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$j = ["color"];
+var _excluded$j = ["color", "iconType"];
 var ArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$j);
 
@@ -371,8 +487,14 @@ var ArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 ArrowUpIconIcon.displayName = 'ArrowUpIconIcon';
+ArrowUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ArrowUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$k = ["color"];
+var _excluded$k = ["color", "iconType"];
 var AspectRatioIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$k);
 
@@ -388,8 +510,14 @@ var AspectRatioIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 AspectRatioIconIcon.displayName = 'AspectRatioIconIcon';
+AspectRatioIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AspectRatioIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$l = ["color"];
+var _excluded$l = ["color", "iconType"];
 var AvatarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$l);
 
@@ -405,8 +533,14 @@ var AvatarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 AvatarIconIcon.displayName = 'AvatarIconIcon';
+AvatarIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+AvatarIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$m = ["color"];
+var _excluded$m = ["color", "iconType"];
 var BackpackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$m);
 
@@ -422,8 +556,14 @@ var BackpackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 BackpackIconIcon.displayName = 'BackpackIconIcon';
+BackpackIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BackpackIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$n = ["color"];
+var _excluded$n = ["color", "iconType"];
 var BadgeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$n);
 
@@ -439,8 +579,14 @@ var BadgeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 BadgeIconIcon.displayName = 'BadgeIconIcon';
+BadgeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BadgeIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$o = ["color"];
+var _excluded$o = ["color", "iconType"];
 var BarChartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$o);
 
@@ -456,8 +602,14 @@ var BarChartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 BarChartIconIcon.displayName = 'BarChartIconIcon';
+BarChartIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BarChartIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$p = ["color"];
+var _excluded$p = ["color", "iconType"];
 var BellIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$p);
 
@@ -473,8 +625,14 @@ var BellIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 BellIconIcon.displayName = 'BellIconIcon';
+BellIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BellIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$q = ["color"];
+var _excluded$q = ["color", "iconType"];
 var BilibiliHelperLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$q);
 
@@ -489,8 +647,14 @@ var BilibiliHelperLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, f
   }));
 });
 BilibiliHelperLogoIconIcon.displayName = 'BilibiliHelperLogoIconIcon';
+BilibiliHelperLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BilibiliHelperLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$r = ["color"];
+var _excluded$r = ["color", "iconType"];
 var BilibiliMusicLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$r);
 
@@ -506,8 +670,14 @@ var BilibiliMusicLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 BilibiliMusicLogoIconIcon.displayName = 'BilibiliMusicLogoIconIcon';
+BilibiliMusicLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BilibiliMusicLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$s = ["color"];
+var _excluded$s = ["color", "iconType"];
 var BlendingModeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$s);
 
@@ -523,8 +693,14 @@ var BlendingModeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 BlendingModeIconIcon.displayName = 'BlendingModeIconIcon';
+BlendingModeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BlendingModeIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$t = ["color"];
+var _excluded$t = ["color", "iconType"];
 var BookmarkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$t);
 
@@ -540,8 +716,14 @@ var BookmarkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 BookmarkIconIcon.displayName = 'BookmarkIconIcon';
+BookmarkIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BookmarkIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$u = ["color"];
+var _excluded$u = ["color", "iconType"];
 var BookmarkFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$u);
 
@@ -556,8 +738,14 @@ var BookmarkFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 BookmarkFilledIconIcon.displayName = 'BookmarkFilledIconIcon';
+BookmarkFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BookmarkFilledIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$v = ["color"];
+var _excluded$v = ["color", "iconType"];
 var BorderAllIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$v);
 
@@ -573,8 +761,14 @@ var BorderAllIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 BorderAllIconIcon.displayName = 'BorderAllIconIcon';
+BorderAllIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderAllIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$w = ["color"];
+var _excluded$w = ["color", "iconType"];
 var BorderBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$w);
 
@@ -590,8 +784,14 @@ var BorderBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 BorderBottomIconIcon.displayName = 'BorderBottomIconIcon';
+BorderBottomIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderBottomIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$x = ["color"];
+var _excluded$x = ["color", "iconType"];
 var BorderLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$x);
 
@@ -607,8 +807,14 @@ var BorderLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 BorderLeftIconIcon.displayName = 'BorderLeftIconIcon';
+BorderLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderLeftIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$y = ["color"];
+var _excluded$y = ["color", "iconType"];
 var BorderNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$y);
 
@@ -624,8 +830,14 @@ var BorderNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 BorderNoneIconIcon.displayName = 'BorderNoneIconIcon';
+BorderNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderNoneIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$z = ["color"];
+var _excluded$z = ["color", "iconType"];
 var BorderRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$z);
 
@@ -641,8 +853,14 @@ var BorderRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 BorderRightIconIcon.displayName = 'BorderRightIconIcon';
+BorderRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderRightIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$A = ["color"];
+var _excluded$A = ["color", "iconType"];
 var BorderSplitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$A);
 
@@ -658,8 +876,14 @@ var BorderSplitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 BorderSplitIconIcon.displayName = 'BorderSplitIconIcon';
+BorderSplitIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderSplitIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$B = ["color"];
+var _excluded$B = ["color", "iconType"];
 var BorderStyleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$B);
 
@@ -675,8 +899,14 @@ var BorderStyleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 BorderStyleIconIcon.displayName = 'BorderStyleIconIcon';
+BorderStyleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderStyleIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$C = ["color"];
+var _excluded$C = ["color", "iconType"];
 var BorderTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$C);
 
@@ -692,8 +922,14 @@ var BorderTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 BorderTopIconIcon.displayName = 'BorderTopIconIcon';
+BorderTopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BorderTopIconIcon.defaultProps = {
+  iconType: 'Borders'
+};
 
-var _excluded$D = ["color"];
+var _excluded$D = ["color", "iconType"];
 var BoxIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$D);
 
@@ -709,8 +945,14 @@ var BoxIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 BoxIconIcon.displayName = 'BoxIconIcon';
+BoxIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BoxIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$E = ["color"];
+var _excluded$E = ["color", "iconType"];
 var BoxModelIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$E);
 
@@ -726,8 +968,14 @@ var BoxModelIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 BoxModelIconIcon.displayName = 'BoxModelIconIcon';
+BoxModelIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+BoxModelIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$F = ["color"];
+var _excluded$F = ["color", "iconType"];
 var ButtonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$F);
 
@@ -743,8 +991,14 @@ var ButtonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 ButtonIconIcon.displayName = 'ButtonIconIcon';
+ButtonIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ButtonIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$G = ["color"];
+var _excluded$G = ["color", "iconType"];
 var CalendarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$G);
 
@@ -760,8 +1014,14 @@ var CalendarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 CalendarIconIcon.displayName = 'CalendarIconIcon';
+CalendarIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CalendarIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$H = ["color"];
+var _excluded$H = ["color", "iconType"];
 var CameraIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$H);
 
@@ -777,8 +1037,14 @@ var CameraIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 CameraIconIcon.displayName = 'CameraIconIcon';
+CameraIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CameraIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$I = ["color"];
+var _excluded$I = ["color", "iconType"];
 var CardStackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$I);
 
@@ -794,8 +1060,14 @@ var CardStackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 CardStackIconIcon.displayName = 'CardStackIconIcon';
+CardStackIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CardStackIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$J = ["color"];
+var _excluded$J = ["color", "iconType"];
 var CardStackMinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$J);
 
@@ -811,8 +1083,14 @@ var CardStackMinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 CardStackMinusIconIcon.displayName = 'CardStackMinusIconIcon';
+CardStackMinusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CardStackMinusIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$K = ["color"];
+var _excluded$K = ["color", "iconType"];
 var CardStackPlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$K);
 
@@ -828,8 +1106,14 @@ var CardStackPlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 CardStackPlusIconIcon.displayName = 'CardStackPlusIconIcon';
+CardStackPlusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CardStackPlusIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$L = ["color"];
+var _excluded$L = ["color", "iconType"];
 var CaretDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$L);
 
@@ -844,8 +1128,14 @@ var CaretDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 CaretDownIconIcon.displayName = 'CaretDownIconIcon';
+CaretDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CaretDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$M = ["color"];
+var _excluded$M = ["color", "iconType"];
 var CaretLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$M);
 
@@ -860,8 +1150,14 @@ var CaretLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 CaretLeftIconIcon.displayName = 'CaretLeftIconIcon';
+CaretLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CaretLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$N = ["color"];
+var _excluded$N = ["color", "iconType"];
 var CaretRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$N);
 
@@ -876,8 +1172,14 @@ var CaretRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 CaretRightIconIcon.displayName = 'CaretRightIconIcon';
+CaretRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CaretRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$O = ["color"];
+var _excluded$O = ["color", "iconType"];
 var CaretSortIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$O);
 
@@ -893,8 +1195,14 @@ var CaretSortIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 CaretSortIconIcon.displayName = 'CaretSortIconIcon';
+CaretSortIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CaretSortIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$P = ["color"];
+var _excluded$P = ["color", "iconType"];
 var CaretUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$P);
 
@@ -909,8 +1217,14 @@ var CaretUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 CaretUpIconIcon.displayName = 'CaretUpIconIcon';
+CaretUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CaretUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$Q = ["color"];
+var _excluded$Q = ["color", "iconType"];
 var ChatBubbleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$Q);
 
@@ -926,8 +1240,14 @@ var ChatBubbleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 ChatBubbleIconIcon.displayName = 'ChatBubbleIconIcon';
+ChatBubbleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ChatBubbleIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$R = ["color"];
+var _excluded$R = ["color", "iconType"];
 var CheckIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$R);
 
@@ -942,8 +1262,14 @@ var CheckIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 CheckIconIcon.displayName = 'CheckIconIcon';
+CheckIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CheckIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$S = ["color"];
+var _excluded$S = ["color", "iconType"];
 var CheckCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$S);
 
@@ -959,8 +1285,14 @@ var CheckCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 CheckCircledIconIcon.displayName = 'CheckCircledIconIcon';
+CheckCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CheckCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$T = ["color"];
+var _excluded$T = ["color", "iconType"];
 var CheckboxIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$T);
 
@@ -976,8 +1308,14 @@ var CheckboxIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 CheckboxIconIcon.displayName = 'CheckboxIconIcon';
+CheckboxIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CheckboxIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$U = ["color"];
+var _excluded$U = ["color", "iconType"];
 var ChevronDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$U);
 
@@ -992,8 +1330,14 @@ var ChevronDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 ChevronDownIconIcon.displayName = 'ChevronDownIconIcon';
+ChevronDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ChevronDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$V = ["color"];
+var _excluded$V = ["color", "iconType"];
 var ChevronLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$V);
 
@@ -1008,8 +1352,14 @@ var ChevronLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 ChevronLeftIconIcon.displayName = 'ChevronLeftIconIcon';
+ChevronLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ChevronLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$W = ["color"];
+var _excluded$W = ["color", "iconType"];
 var ChevronRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$W);
 
@@ -1024,8 +1374,14 @@ var ChevronRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ChevronRightIconIcon.displayName = 'ChevronRightIconIcon';
+ChevronRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ChevronRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$X = ["color"];
+var _excluded$X = ["color", "iconType"];
 var ChevronUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$X);
 
@@ -1040,8 +1396,14 @@ var ChevronUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 ChevronUpIconIcon.displayName = 'ChevronUpIconIcon';
+ChevronUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ChevronUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$Y = ["color"];
+var _excluded$Y = ["color", "iconType"];
 var CircleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$Y);
 
@@ -1057,8 +1419,14 @@ var CircleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 CircleIconIcon.displayName = 'CircleIconIcon';
+CircleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CircleIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$Z = ["color"];
+var _excluded$Z = ["color", "iconType"];
 var CircleBackslashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$Z);
 
@@ -1074,8 +1442,14 @@ var CircleBackslashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 CircleBackslashIconIcon.displayName = 'CircleBackslashIconIcon';
+CircleBackslashIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CircleBackslashIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$_ = ["color"];
+var _excluded$_ = ["color", "iconType"];
 var ClipboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$_);
 
@@ -1096,8 +1470,14 @@ var ClipboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   })));
 });
 ClipboardIconIcon.displayName = 'ClipboardIconIcon';
+ClipboardIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ClipboardIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$$ = ["color"];
+var _excluded$$ = ["color", "iconType"];
 var ClipboardCopyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$$);
 
@@ -1118,8 +1498,14 @@ var ClipboardCopyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   })));
 });
 ClipboardCopyIconIcon.displayName = 'ClipboardCopyIconIcon';
+ClipboardCopyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ClipboardCopyIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$10 = ["color"];
+var _excluded$10 = ["color", "iconType"];
 var ClockIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$10);
 
@@ -1135,8 +1521,14 @@ var ClockIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 ClockIconIcon.displayName = 'ClockIconIcon';
+ClockIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ClockIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$11 = ["color"];
+var _excluded$11 = ["color", "iconType"];
 var CodeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$11);
 
@@ -1152,8 +1544,14 @@ var CodeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 CodeIconIcon.displayName = 'CodeIconIcon';
+CodeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CodeIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$12 = ["color"];
+var _excluded$12 = ["color", "iconType"];
 var CodeSandboxLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$12);
 
@@ -1169,8 +1567,14 @@ var CodeSandboxLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 CodeSandboxLogoIconIcon.displayName = 'CodeSandboxLogoIconIcon';
+CodeSandboxLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CodeSandboxLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$13 = ["color"];
+var _excluded$13 = ["color", "iconType"];
 var ColorWheelIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$13);
 
@@ -1186,8 +1590,14 @@ var ColorWheelIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 ColorWheelIconIcon.displayName = 'ColorWheelIconIcon';
+ColorWheelIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ColorWheelIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$14 = ["color"];
+var _excluded$14 = ["color", "iconType"];
 var ColumnSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$14);
 
@@ -1203,8 +1613,14 @@ var ColumnSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 ColumnSpacingIconIcon.displayName = 'ColumnSpacingIconIcon';
+ColumnSpacingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ColumnSpacingIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$15 = ["color"];
+var _excluded$15 = ["color", "iconType"];
 var ColumnsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$15);
 
@@ -1220,8 +1636,14 @@ var ColumnsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 ColumnsIconIcon.displayName = 'ColumnsIconIcon';
+ColumnsIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ColumnsIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$16 = ["color"];
+var _excluded$16 = ["color", "iconType"];
 var CommitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$16);
 
@@ -1237,8 +1659,14 @@ var CommitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 CommitIconIcon.displayName = 'CommitIconIcon';
+CommitIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CommitIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$17 = ["color"];
+var _excluded$17 = ["color", "iconType"];
 var Component1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$17);
 
@@ -1254,8 +1682,14 @@ var Component1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 Component1IconIcon.displayName = 'Component1IconIcon';
+Component1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Component1IconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$18 = ["color"];
+var _excluded$18 = ["color", "iconType"];
 var Component2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$18);
 
@@ -1271,8 +1705,14 @@ var Component2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 Component2IconIcon.displayName = 'Component2IconIcon';
+Component2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Component2IconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$19 = ["color"];
+var _excluded$19 = ["color", "iconType"];
 var ComponentBooleanIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$19);
 
@@ -1288,8 +1728,14 @@ var ComponentBooleanIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 ComponentBooleanIconIcon.displayName = 'ComponentBooleanIconIcon';
+ComponentBooleanIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ComponentBooleanIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1a = ["color"];
+var _excluded$1a = ["color", "iconType"];
 var ComponentInstanceIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1a);
 
@@ -1305,8 +1751,14 @@ var ComponentInstanceIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 ComponentInstanceIconIcon.displayName = 'ComponentInstanceIconIcon';
+ComponentInstanceIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ComponentInstanceIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1b = ["color"];
+var _excluded$1b = ["color", "iconType"];
 var ComponentNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1b);
 
@@ -1322,8 +1774,14 @@ var ComponentNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 ComponentNoneIconIcon.displayName = 'ComponentNoneIconIcon';
+ComponentNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ComponentNoneIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1c = ["color"];
+var _excluded$1c = ["color", "iconType"];
 var ComponentPlaceholderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1c);
 
@@ -1339,8 +1797,14 @@ var ComponentPlaceholderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref,
   }));
 });
 ComponentPlaceholderIconIcon.displayName = 'ComponentPlaceholderIconIcon';
+ComponentPlaceholderIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ComponentPlaceholderIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1d = ["color"];
+var _excluded$1d = ["color", "iconType"];
 var ContainerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1d);
 
@@ -1356,8 +1820,14 @@ var ContainerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 ContainerIconIcon.displayName = 'ContainerIconIcon';
+ContainerIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ContainerIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$1e = ["color"];
+var _excluded$1e = ["color", "iconType"];
 var CookieIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1e);
 
@@ -1373,8 +1843,14 @@ var CookieIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 CookieIconIcon.displayName = 'CookieIconIcon';
+CookieIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CookieIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1f = ["color"];
+var _excluded$1f = ["color", "iconType"];
 var CopyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1f);
 
@@ -1395,8 +1871,14 @@ var CopyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   })));
 });
 CopyIconIcon.displayName = 'CopyIconIcon';
+CopyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CopyIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1g = ["color"];
+var _excluded$1g = ["color", "iconType"];
 var CornerBottomLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1g);
 
@@ -1411,8 +1893,14 @@ var CornerBottomLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 CornerBottomLeftIconIcon.displayName = 'CornerBottomLeftIconIcon';
+CornerBottomLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CornerBottomLeftIconIcon.defaultProps = {
+  iconType: 'Corners'
+};
 
-var _excluded$1h = ["color"];
+var _excluded$1h = ["color", "iconType"];
 var CornerBottomRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1h);
 
@@ -1427,8 +1915,14 @@ var CornerBottomRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 CornerBottomRightIconIcon.displayName = 'CornerBottomRightIconIcon';
+CornerBottomRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CornerBottomRightIconIcon.defaultProps = {
+  iconType: 'Corners'
+};
 
-var _excluded$1i = ["color"];
+var _excluded$1i = ["color", "iconType"];
 var CornerTopLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1i);
 
@@ -1443,8 +1937,14 @@ var CornerTopLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 CornerTopLeftIconIcon.displayName = 'CornerTopLeftIconIcon';
+CornerTopLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CornerTopLeftIconIcon.defaultProps = {
+  iconType: 'Corners'
+};
 
-var _excluded$1j = ["color"];
+var _excluded$1j = ["color", "iconType"];
 var CornerTopRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1j);
 
@@ -1459,8 +1959,14 @@ var CornerTopRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 CornerTopRightIconIcon.displayName = 'CornerTopRightIconIcon';
+CornerTopRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CornerTopRightIconIcon.defaultProps = {
+  iconType: 'Corners'
+};
 
-var _excluded$1k = ["color"];
+var _excluded$1k = ["color", "iconType"];
 var CornersIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1k);
 
@@ -1476,8 +1982,14 @@ var CornersIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 CornersIconIcon.displayName = 'CornersIconIcon';
+CornersIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CornersIconIcon.defaultProps = {
+  iconType: 'Corners'
+};
 
-var _excluded$1l = ["color"];
+var _excluded$1l = ["color", "iconType"];
 var CountdownTimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1l);
 
@@ -1493,8 +2005,14 @@ var CountdownTimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 CountdownTimerIconIcon.displayName = 'CountdownTimerIconIcon';
+CountdownTimerIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CountdownTimerIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1m = ["color"];
+var _excluded$1m = ["color", "iconType"];
 var CounterClockwiseClockIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1m);
 
@@ -1510,8 +2028,14 @@ var CounterClockwiseClockIconIcon = /*#__PURE__*/React.forwardRef(function (_ref
   }));
 });
 CounterClockwiseClockIconIcon.displayName = 'CounterClockwiseClockIconIcon';
+CounterClockwiseClockIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CounterClockwiseClockIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1n = ["color"];
+var _excluded$1n = ["color", "iconType"];
 var CropIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1n);
 
@@ -1527,8 +2051,14 @@ var CropIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 CropIconIcon.displayName = 'CropIconIcon';
+CropIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CropIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1o = ["color"];
+var _excluded$1o = ["color", "iconType"];
 var Cross1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1o);
 
@@ -1543,8 +2073,14 @@ var Cross1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 Cross1IconIcon.displayName = 'Cross1IconIcon';
+Cross1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Cross1IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1p = ["color"];
+var _excluded$1p = ["color", "iconType"];
 var Cross2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1p);
 
@@ -1559,8 +2095,14 @@ var Cross2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 Cross2IconIcon.displayName = 'Cross2IconIcon';
+Cross2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Cross2IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1q = ["color"];
+var _excluded$1q = ["color", "iconType"];
 var CrossCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1q);
 
@@ -1576,8 +2118,14 @@ var CrossCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 CrossCircledIconIcon.displayName = 'CrossCircledIconIcon';
+CrossCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CrossCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1r = ["color"];
+var _excluded$1r = ["color", "iconType"];
 var Crosshair1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1r);
 
@@ -1593,8 +2141,14 @@ var Crosshair1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 Crosshair1IconIcon.displayName = 'Crosshair1IconIcon';
+Crosshair1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Crosshair1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1s = ["color"];
+var _excluded$1s = ["color", "iconType"];
 var Crosshair2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1s);
 
@@ -1610,8 +2164,14 @@ var Crosshair2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 Crosshair2IconIcon.displayName = 'Crosshair2IconIcon';
+Crosshair2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Crosshair2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1t = ["color"];
+var _excluded$1t = ["color", "iconType"];
 var CrumpledPaperIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1t);
 
@@ -1632,8 +2192,14 @@ var CrumpledPaperIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   })));
 });
 CrumpledPaperIconIcon.displayName = 'CrumpledPaperIconIcon';
+CrumpledPaperIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CrumpledPaperIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1u = ["color"];
+var _excluded$1u = ["color", "iconType"];
 var CubeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1u);
 
@@ -1649,8 +2215,14 @@ var CubeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 CubeIconIcon.displayName = 'CubeIconIcon';
+CubeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CubeIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1v = ["color"];
+var _excluded$1v = ["color", "iconType"];
 var CursorArrowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1v);
 
@@ -1666,8 +2238,14 @@ var CursorArrowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 CursorArrowIconIcon.displayName = 'CursorArrowIconIcon';
+CursorArrowIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CursorArrowIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1w = ["color"];
+var _excluded$1w = ["color", "iconType"];
 var CursorTextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1w);
 
@@ -1682,8 +2260,14 @@ var CursorTextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 CursorTextIconIcon.displayName = 'CursorTextIconIcon';
+CursorTextIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+CursorTextIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1x = ["color"];
+var _excluded$1x = ["color", "iconType"];
 var DashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1x);
 
@@ -1698,8 +2282,14 @@ var DashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 DashIconIcon.displayName = 'DashIconIcon';
+DashIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DashIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$1y = ["color"];
+var _excluded$1y = ["color", "iconType"];
 var DashboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1y);
 
@@ -1715,8 +2305,14 @@ var DashboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 DashboardIconIcon.displayName = 'DashboardIconIcon';
+DashboardIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DashboardIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$1z = ["color"];
+var _excluded$1z = ["color", "iconType"];
 var DashedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1z);
 
@@ -1732,8 +2328,14 @@ var DashedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 DashedIconIcon.displayName = 'DashedIconIcon';
+DashedIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DashedIconIcon.defaultProps = {
+  iconType: 'Lines'
+};
 
-var _excluded$1A = ["color"];
+var _excluded$1A = ["color", "iconType"];
 var DesktopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1A);
 
@@ -1749,8 +2351,14 @@ var DesktopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 DesktopIconIcon.displayName = 'DesktopIconIcon';
+DesktopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DesktopIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1B = ["color"];
+var _excluded$1B = ["color", "iconType"];
 var DimensionsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1B);
 
@@ -1766,8 +2374,14 @@ var DimensionsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 DimensionsIconIcon.displayName = 'DimensionsIconIcon';
+DimensionsIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DimensionsIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$1C = ["color"];
+var _excluded$1C = ["color", "iconType"];
 var DiscIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1C);
 
@@ -1783,8 +2397,14 @@ var DiscIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 DiscIconIcon.displayName = 'DiscIconIcon';
+DiscIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DiscIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1D = ["color"];
+var _excluded$1D = ["color", "iconType"];
 var DiscordLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1D);
 
@@ -1800,8 +2420,14 @@ var DiscordLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 DiscordLogoIconIcon.displayName = 'DiscordLogoIconIcon';
+DiscordLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DiscordLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$1E = ["color"];
+var _excluded$1E = ["color", "iconType"];
 var DividerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1E);
 
@@ -1816,8 +2442,14 @@ var DividerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 DividerHorizontalIconIcon.displayName = 'DividerHorizontalIconIcon';
+DividerHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DividerHorizontalIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$1F = ["color"];
+var _excluded$1F = ["color", "iconType"];
 var DividerVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1F);
 
@@ -1832,8 +2464,14 @@ var DividerVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 DividerVerticalIconIcon.displayName = 'DividerVerticalIconIcon';
+DividerVerticalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DividerVerticalIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$1G = ["color"];
+var _excluded$1G = ["color", "iconType"];
 var DotIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1G);
 
@@ -1849,8 +2487,14 @@ var DotIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 DotIconIcon.displayName = 'DotIconIcon';
+DotIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DotIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1H = ["color"];
+var _excluded$1H = ["color", "iconType"];
 var DotFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1H);
 
@@ -1865,8 +2509,14 @@ var DotFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 DotFilledIconIcon.displayName = 'DotFilledIconIcon';
+DotFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DotFilledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1I = ["color"];
+var _excluded$1I = ["color", "iconType"];
 var DotsHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1I);
 
@@ -1882,8 +2532,14 @@ var DotsHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 DotsHorizontalIconIcon.displayName = 'DotsHorizontalIconIcon';
+DotsHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DotsHorizontalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1J = ["color"];
+var _excluded$1J = ["color", "iconType"];
 var DotsVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1J);
 
@@ -1899,8 +2555,14 @@ var DotsVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 DotsVerticalIconIcon.displayName = 'DotsVerticalIconIcon';
+DotsVerticalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DotsVerticalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1K = ["color"];
+var _excluded$1K = ["color", "iconType"];
 var DottedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1K);
 
@@ -1916,8 +2578,14 @@ var DottedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 DottedIconIcon.displayName = 'DottedIconIcon';
+DottedIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DottedIconIcon.defaultProps = {
+  iconType: 'Lines'
+};
 
-var _excluded$1L = ["color"];
+var _excluded$1L = ["color", "iconType"];
 var DoubleArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1L);
 
@@ -1933,8 +2601,14 @@ var DoubleArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 DoubleArrowDownIconIcon.displayName = 'DoubleArrowDownIconIcon';
+DoubleArrowDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DoubleArrowDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$1M = ["color"];
+var _excluded$1M = ["color", "iconType"];
 var DoubleArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1M);
 
@@ -1950,8 +2624,14 @@ var DoubleArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 DoubleArrowLeftIconIcon.displayName = 'DoubleArrowLeftIconIcon';
+DoubleArrowLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DoubleArrowLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$1N = ["color"];
+var _excluded$1N = ["color", "iconType"];
 var DoubleArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1N);
 
@@ -1967,8 +2647,14 @@ var DoubleArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 DoubleArrowRightIconIcon.displayName = 'DoubleArrowRightIconIcon';
+DoubleArrowRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DoubleArrowRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$1O = ["color"];
+var _excluded$1O = ["color", "iconType"];
 var DoubleArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1O);
 
@@ -1984,8 +2670,14 @@ var DoubleArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 DoubleArrowUpIconIcon.displayName = 'DoubleArrowUpIconIcon';
+DoubleArrowUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DoubleArrowUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$1P = ["color"];
+var _excluded$1P = ["color", "iconType"];
 var DownloadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1P);
 
@@ -2001,8 +2693,14 @@ var DownloadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 DownloadIconIcon.displayName = 'DownloadIconIcon';
+DownloadIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DownloadIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1Q = ["color"];
+var _excluded$1Q = ["color", "iconType"];
 var DragHandleDots1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1Q);
 
@@ -2018,8 +2716,14 @@ var DragHandleDots1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 DragHandleDots1IconIcon.displayName = 'DragHandleDots1IconIcon';
+DragHandleDots1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DragHandleDots1IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1R = ["color"];
+var _excluded$1R = ["color", "iconType"];
 var DragHandleDots2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1R);
 
@@ -2035,8 +2739,14 @@ var DragHandleDots2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 DragHandleDots2IconIcon.displayName = 'DragHandleDots2IconIcon';
+DragHandleDots2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DragHandleDots2IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1S = ["color"];
+var _excluded$1S = ["color", "iconType"];
 var DragHandleHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1S);
 
@@ -2052,8 +2762,14 @@ var DragHandleHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref,
   }));
 });
 DragHandleHorizontalIconIcon.displayName = 'DragHandleHorizontalIconIcon';
+DragHandleHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DragHandleHorizontalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1T = ["color"];
+var _excluded$1T = ["color", "iconType"];
 var DragHandleVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1T);
 
@@ -2069,8 +2785,14 @@ var DragHandleVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, f
   }));
 });
 DragHandleVerticalIconIcon.displayName = 'DragHandleVerticalIconIcon';
+DragHandleVerticalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DragHandleVerticalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1U = ["color"];
+var _excluded$1U = ["color", "iconType"];
 var DrawingPinIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1U);
 
@@ -2086,8 +2808,14 @@ var DrawingPinIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 DrawingPinIconIcon.displayName = 'DrawingPinIconIcon';
+DrawingPinIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DrawingPinIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1V = ["color"];
+var _excluded$1V = ["color", "iconType"];
 var DrawingPinFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1V);
 
@@ -2103,8 +2831,14 @@ var DrawingPinFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 DrawingPinFilledIconIcon.displayName = 'DrawingPinFilledIconIcon';
+DrawingPinFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DrawingPinFilledIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1W = ["color"];
+var _excluded$1W = ["color", "iconType"];
 var DropdownMenuIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1W);
 
@@ -2120,8 +2854,14 @@ var DropdownMenuIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 DropdownMenuIconIcon.displayName = 'DropdownMenuIconIcon';
+DropdownMenuIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+DropdownMenuIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$1X = ["color"];
+var _excluded$1X = ["color", "iconType"];
 var EnterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1X);
 
@@ -2137,8 +2877,14 @@ var EnterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 EnterIconIcon.displayName = 'EnterIconIcon';
+EnterIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EnterIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1Y = ["color"];
+var _excluded$1Y = ["color", "iconType"];
 var EnterFullScreenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1Y);
 
@@ -2154,8 +2900,14 @@ var EnterFullScreenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 EnterFullScreenIconIcon.displayName = 'EnterFullScreenIconIcon';
+EnterFullScreenIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EnterFullScreenIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$1Z = ["color"];
+var _excluded$1Z = ["color", "iconType"];
 var EnvelopeClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1Z);
 
@@ -2171,8 +2923,14 @@ var EnvelopeClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 EnvelopeClosedIconIcon.displayName = 'EnvelopeClosedIconIcon';
+EnvelopeClosedIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EnvelopeClosedIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1_ = ["color"];
+var _excluded$1_ = ["color", "iconType"];
 var EnvelopeOpenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1_);
 
@@ -2188,8 +2946,14 @@ var EnvelopeOpenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 EnvelopeOpenIconIcon.displayName = 'EnvelopeOpenIconIcon';
+EnvelopeOpenIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EnvelopeOpenIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$1$ = ["color"];
+var _excluded$1$ = ["color", "iconType"];
 var EraserIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$1$);
 
@@ -2210,8 +2974,14 @@ var EraserIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   })));
 });
 EraserIconIcon.displayName = 'EraserIconIcon';
+EraserIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EraserIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$20 = ["color"];
+var _excluded$20 = ["color", "iconType"];
 var ExclamationTriangleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$20);
 
@@ -2227,8 +2997,14 @@ var ExclamationTriangleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 ExclamationTriangleIconIcon.displayName = 'ExclamationTriangleIconIcon';
+ExclamationTriangleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ExclamationTriangleIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$21 = ["color"];
+var _excluded$21 = ["color", "iconType"];
 var ExitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$21);
 
@@ -2244,8 +3020,14 @@ var ExitIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 ExitIconIcon.displayName = 'ExitIconIcon';
+ExitIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ExitIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$22 = ["color"];
+var _excluded$22 = ["color", "iconType"];
 var ExitFullScreenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$22);
 
@@ -2261,8 +3043,14 @@ var ExitFullScreenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 ExitFullScreenIconIcon.displayName = 'ExitFullScreenIconIcon';
+ExitFullScreenIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ExitFullScreenIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$23 = ["color"];
+var _excluded$23 = ["color", "iconType"];
 var ExternalLinkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$23);
 
@@ -2278,8 +3066,14 @@ var ExternalLinkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ExternalLinkIconIcon.displayName = 'ExternalLinkIconIcon';
+ExternalLinkIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ExternalLinkIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$24 = ["color"];
+var _excluded$24 = ["color", "iconType"];
 var EyeClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$24);
 
@@ -2294,8 +3088,14 @@ var EyeClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 EyeClosedIconIcon.displayName = 'EyeClosedIconIcon';
+EyeClosedIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EyeClosedIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$25 = ["color"];
+var _excluded$25 = ["color", "iconType"];
 var EyeNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$25);
 
@@ -2311,8 +3111,14 @@ var EyeNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 EyeNoneIconIcon.displayName = 'EyeNoneIconIcon';
+EyeNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EyeNoneIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$26 = ["color"];
+var _excluded$26 = ["color", "iconType"];
 var EyeOpenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$26);
 
@@ -2328,8 +3134,14 @@ var EyeOpenIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 EyeOpenIconIcon.displayName = 'EyeOpenIconIcon';
+EyeOpenIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+EyeOpenIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$27 = ["color"];
+var _excluded$27 = ["color", "iconType"];
 var FaceIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$27);
 
@@ -2345,8 +3157,14 @@ var FaceIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 FaceIconIcon.displayName = 'FaceIconIcon';
+FaceIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FaceIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$28 = ["color"];
+var _excluded$28 = ["color", "iconType"];
 var FigmaLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$28);
 
@@ -2362,8 +3180,14 @@ var FigmaLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 FigmaLogoIconIcon.displayName = 'FigmaLogoIconIcon';
+FigmaLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FigmaLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$29 = ["color"];
+var _excluded$29 = ["color", "iconType"];
 var FileIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$29);
 
@@ -2379,8 +3203,14 @@ var FileIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 FileIconIcon.displayName = 'FileIconIcon';
+FileIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FileIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2a = ["color"];
+var _excluded$2a = ["color", "iconType"];
 var FileMinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2a);
 
@@ -2396,8 +3226,14 @@ var FileMinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 FileMinusIconIcon.displayName = 'FileMinusIconIcon';
+FileMinusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FileMinusIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2b = ["color"];
+var _excluded$2b = ["color", "iconType"];
 var FilePlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2b);
 
@@ -2413,8 +3249,14 @@ var FilePlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 FilePlusIconIcon.displayName = 'FilePlusIconIcon';
+FilePlusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FilePlusIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2c = ["color"];
+var _excluded$2c = ["color", "iconType"];
 var FileTextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2c);
 
@@ -2430,8 +3272,14 @@ var FileTextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 FileTextIconIcon.displayName = 'FileTextIconIcon';
+FileTextIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FileTextIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2d = ["color"];
+var _excluded$2d = ["color", "iconType"];
 var FontBoldIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2d);
 
@@ -2447,8 +3295,14 @@ var FontBoldIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 FontBoldIconIcon.displayName = 'FontBoldIconIcon';
+FontBoldIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontBoldIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2e = ["color"];
+var _excluded$2e = ["color", "iconType"];
 var FontFamilyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2e);
 
@@ -2463,8 +3317,14 @@ var FontFamilyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 FontFamilyIconIcon.displayName = 'FontFamilyIconIcon';
+FontFamilyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontFamilyIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2f = ["color"];
+var _excluded$2f = ["color", "iconType"];
 var FontItalicIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2f);
 
@@ -2479,8 +3339,14 @@ var FontItalicIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 FontItalicIconIcon.displayName = 'FontItalicIconIcon';
+FontItalicIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontItalicIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2g = ["color"];
+var _excluded$2g = ["color", "iconType"];
 var FontRomanIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2g);
 
@@ -2495,8 +3361,14 @@ var FontRomanIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 FontRomanIconIcon.displayName = 'FontRomanIconIcon';
+FontRomanIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontRomanIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2h = ["color"];
+var _excluded$2h = ["color", "iconType"];
 var FontSizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2h);
 
@@ -2512,8 +3384,14 @@ var FontSizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 FontSizeIconIcon.displayName = 'FontSizeIconIcon';
+FontSizeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontSizeIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2i = ["color"];
+var _excluded$2i = ["color", "iconType"];
 var FontStyleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2i);
 
@@ -2529,8 +3407,14 @@ var FontStyleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 FontStyleIconIcon.displayName = 'FontStyleIconIcon';
+FontStyleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FontStyleIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2j = ["color"];
+var _excluded$2j = ["color", "iconType"];
 var FrameIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2j);
 
@@ -2546,8 +3430,14 @@ var FrameIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 FrameIconIcon.displayName = 'FrameIconIcon';
+FrameIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FrameIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$2k = ["color"];
+var _excluded$2k = ["color", "iconType"];
 var FramerLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2k);
 
@@ -2563,8 +3453,14 @@ var FramerLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 FramerLogoIconIcon.displayName = 'FramerLogoIconIcon';
+FramerLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+FramerLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$2l = ["color"];
+var _excluded$2l = ["color", "iconType"];
 var GearIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2l);
 
@@ -2580,8 +3476,14 @@ var GearIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 GearIconIcon.displayName = 'GearIconIcon';
+GearIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+GearIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2m = ["color"];
+var _excluded$2m = ["color", "iconType"];
 var GitHubLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2m);
 
@@ -2596,8 +3498,14 @@ var GitHubLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 GitHubLogoIconIcon.displayName = 'GitHubLogoIconIcon';
+GitHubLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+GitHubLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$2n = ["color"];
+var _excluded$2n = ["color", "iconType"];
 var GlobeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2n);
 
@@ -2613,8 +3521,14 @@ var GlobeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 GlobeIconIcon.displayName = 'GlobeIconIcon';
+GlobeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+GlobeIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2o = ["color"];
+var _excluded$2o = ["color", "iconType"];
 var GridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2o);
 
@@ -2630,8 +3544,14 @@ var GridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 GridIconIcon.displayName = 'GridIconIcon';
+GridIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+GridIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$2p = ["color"];
+var _excluded$2p = ["color", "iconType"];
 var GroupIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2p);
 
@@ -2647,8 +3567,14 @@ var GroupIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 GroupIconIcon.displayName = 'GroupIconIcon';
+GroupIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+GroupIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$2q = ["color"];
+var _excluded$2q = ["color", "iconType"];
 var Half1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2q);
 
@@ -2664,8 +3590,14 @@ var Half1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 Half1IconIcon.displayName = 'Half1IconIcon';
+Half1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Half1IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$2r = ["color"];
+var _excluded$2r = ["color", "iconType"];
 var Half2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2r);
 
@@ -2681,8 +3613,14 @@ var Half2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 Half2IconIcon.displayName = 'Half2IconIcon';
+Half2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Half2IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$2s = ["color"];
+var _excluded$2s = ["color", "iconType"];
 var HamburgerMenuIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2s);
 
@@ -2698,8 +3636,14 @@ var HamburgerMenuIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 HamburgerMenuIconIcon.displayName = 'HamburgerMenuIconIcon';
+HamburgerMenuIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HamburgerMenuIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$2t = ["color"];
+var _excluded$2t = ["color", "iconType"];
 var HandIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2t);
 
@@ -2715,8 +3659,14 @@ var HandIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 HandIconIcon.displayName = 'HandIconIcon';
+HandIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HandIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2u = ["color"];
+var _excluded$2u = ["color", "iconType"];
 var HeadingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2u);
 
@@ -2731,8 +3681,14 @@ var HeadingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 HeadingIconIcon.displayName = 'HeadingIconIcon';
+HeadingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HeadingIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2v = ["color"];
+var _excluded$2v = ["color", "iconType"];
 var HeartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2v);
 
@@ -2753,8 +3709,14 @@ var HeartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   })));
 });
 HeartIconIcon.displayName = 'HeartIconIcon';
+HeartIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HeartIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2w = ["color"];
+var _excluded$2w = ["color", "iconType"];
 var HeartFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2w);
 
@@ -2776,8 +3738,14 @@ var HeartFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   })));
 });
 HeartFilledIconIcon.displayName = 'HeartFilledIconIcon';
+HeartFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HeartFilledIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2x = ["color"];
+var _excluded$2x = ["color", "iconType"];
 var HeightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2x);
 
@@ -2792,8 +3760,14 @@ var HeightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 HeightIconIcon.displayName = 'HeightIconIcon';
+HeightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HeightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$2y = ["color"];
+var _excluded$2y = ["color", "iconType"];
 var HobbyKnifeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2y);
 
@@ -2809,8 +3783,14 @@ var HobbyKnifeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 HobbyKnifeIconIcon.displayName = 'HobbyKnifeIconIcon';
+HobbyKnifeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HobbyKnifeIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2z = ["color"];
+var _excluded$2z = ["color", "iconType"];
 var HomeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2z);
 
@@ -2826,8 +3806,14 @@ var HomeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 HomeIconIcon.displayName = 'HomeIconIcon';
+HomeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+HomeIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2A = ["color"];
+var _excluded$2A = ["color", "iconType"];
 var IconJarLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2A);
 
@@ -2843,10 +3829,83 @@ var IconJarLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 IconJarLogoIconIcon.displayName = 'IconJarLogoIconIcon';
+IconJarLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+IconJarLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$2B = ["color"];
-var IdCardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
+var _excluded$2B = ["color", "iconType"];
+var IconfontLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$2B);
+
+  return React.createElement("svg", Object.assign({
+    width: "15",
+    height: "15",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props, {
+    ref: forwardedRef
+  }), React.createElement("defs", null, React.createElement("linearGradient", {
+    x1: "82.119%",
+    y1: "17.881%",
+    x2: "14.645%",
+    y2: "85.355%",
+    id: "a"
+  }, React.createElement("stop", {
+    stopColor: "#3967FF",
+    offset: "0%"
+  }), React.createElement("stop", {
+    stopColor: "#B500FE",
+    offset: "100%"
+  })), React.createElement("linearGradient", {
+    x1: "21.198%",
+    y1: "85.355%",
+    x2: "78.802%",
+    y2: "14.645%",
+    id: "b"
+  }, React.createElement("stop", {
+    stopColor: "#1C98FF",
+    offset: "0%"
+  }), React.createElement("stop", {
+    stopColor: "#574AE4",
+    offset: "100%"
+  })), React.createElement("linearGradient", {
+    x1: "-10.014%",
+    y1: "39.304%",
+    x2: "101.785%",
+    y2: "31.074%",
+    id: "c"
+  }, React.createElement("stop", {
+    stopColor: "#FF4695",
+    offset: "0%"
+  }), React.createElement("stop", {
+    stopColor: "#CC34E7",
+    offset: "100%"
+  }))), React.createElement("g", {
+    fill: "none"
+  }, React.createElement("path", {
+    d: "M2.904 12.096a6.5 6.5 0 1 1 9.192-9.192 6.5 6.5 0 0 1-9.192 9.192ZM4.55 10.45a4.172 4.172 0 1 0 5.9-5.9 4.172 4.172 0 0 0-5.9 5.9Z",
+    fill: "url(#a)"
+  }), React.createElement("path", {
+    d: "M8.04 6.935a1.89 1.89 0 0 0-1.31-.561l1.765-5.296a6.47 6.47 0 0 1 3.609 1.829 6.47 6.47 0 0 1 1.828 3.609l-5.33 1.776a1.889 1.889 0 0 0-.562-1.357Z",
+    fill: "url(#b)"
+  }), React.createElement("path", {
+    d: "M7.457 7.5a1.149 1.149 0 1 0-1.625 1.625A1.149 1.149 0 0 0 7.457 7.5Z",
+    fill: "url(#c)"
+  })));
+});
+IconfontLogoIconIcon.displayName = 'IconfontLogoIconIcon';
+IconfontLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+IconfontLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
+
+var _excluded$2C = ["color", "iconType"];
+var IdCardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2C);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2860,10 +3919,16 @@ var IdCardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 IdCardIconIcon.displayName = 'IdCardIconIcon';
+IdCardIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+IdCardIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2C = ["color"];
+var _excluded$2D = ["color", "iconType"];
 var ImageIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2C);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2D);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2877,10 +3942,16 @@ var ImageIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 ImageIconIcon.displayName = 'ImageIconIcon';
+ImageIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ImageIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$2D = ["color"];
+var _excluded$2E = ["color", "iconType"];
 var InfoCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2D);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2E);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2894,10 +3965,16 @@ var InfoCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 InfoCircledIconIcon.displayName = 'InfoCircledIconIcon';
+InfoCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+InfoCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$2E = ["color"];
+var _excluded$2F = ["color", "iconType"];
 var InputIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2E);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2F);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2911,10 +3988,16 @@ var InputIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 InputIconIcon.displayName = 'InputIconIcon';
+InputIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+InputIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$2F = ["color"];
+var _excluded$2G = ["color", "iconType"];
 var InstagramLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2F);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2G);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2928,10 +4011,16 @@ var InstagramLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 InstagramLogoIconIcon.displayName = 'InstagramLogoIconIcon';
+InstagramLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+InstagramLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$2G = ["color"];
+var _excluded$2H = ["color", "iconType"];
 var KeyboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2G);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2H);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2950,10 +4039,16 @@ var KeyboardIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   })));
 });
 KeyboardIconIcon.displayName = 'KeyboardIconIcon';
+KeyboardIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+KeyboardIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2H = ["color"];
+var _excluded$2I = ["color", "iconType"];
 var LapTimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2H);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2I);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2967,10 +4062,16 @@ var LapTimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 LapTimerIconIcon.displayName = 'LapTimerIconIcon';
+LapTimerIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LapTimerIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2I = ["color"];
+var _excluded$2J = ["color", "iconType"];
 var LaptopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2I);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2J);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -2984,10 +4085,16 @@ var LaptopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 LaptopIconIcon.displayName = 'LaptopIconIcon';
+LaptopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LaptopIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2J = ["color"];
+var _excluded$2K = ["color", "iconType"];
 var LayersIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2J);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2K);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3001,10 +4108,16 @@ var LayersIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 LayersIconIcon.displayName = 'LayersIconIcon';
+LayersIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LayersIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$2K = ["color"];
+var _excluded$2L = ["color", "iconType"];
 var LayoutIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2K);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2L);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3018,10 +4131,16 @@ var LayoutIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 LayoutIconIcon.displayName = 'LayoutIconIcon';
+LayoutIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LayoutIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$2L = ["color"];
+var _excluded$2M = ["color", "iconType"];
 var LeftWingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2L);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2M);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3034,10 +4153,16 @@ var LeftWingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 LeftWingIconIcon.displayName = 'LeftWingIconIcon';
+LeftWingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LeftWingIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2M = ["color"];
+var _excluded$2N = ["color", "iconType"];
 var LetterCaseCapitalizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2M);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2N);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3051,10 +4176,16 @@ var LetterCaseCapitalizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref,
   }));
 });
 LetterCaseCapitalizeIconIcon.displayName = 'LetterCaseCapitalizeIconIcon';
+LetterCaseCapitalizeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LetterCaseCapitalizeIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2N = ["color"];
+var _excluded$2O = ["color", "iconType"];
 var LetterCaseLowercaseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2N);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2O);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3068,10 +4199,16 @@ var LetterCaseLowercaseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 LetterCaseLowercaseIconIcon.displayName = 'LetterCaseLowercaseIconIcon';
+LetterCaseLowercaseIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LetterCaseLowercaseIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2O = ["color"];
+var _excluded$2P = ["color", "iconType"];
 var LetterCaseToggleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2O);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2P);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3085,10 +4222,16 @@ var LetterCaseToggleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 LetterCaseToggleIconIcon.displayName = 'LetterCaseToggleIconIcon';
+LetterCaseToggleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LetterCaseToggleIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2P = ["color"];
+var _excluded$2Q = ["color", "iconType"];
 var LetterCaseUppercaseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2P);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Q);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3102,10 +4245,16 @@ var LetterCaseUppercaseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 LetterCaseUppercaseIconIcon.displayName = 'LetterCaseUppercaseIconIcon';
+LetterCaseUppercaseIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LetterCaseUppercaseIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2Q = ["color"];
+var _excluded$2R = ["color", "iconType"];
 var LetterSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Q);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2R);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3119,10 +4268,16 @@ var LetterSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 LetterSpacingIconIcon.displayName = 'LetterSpacingIconIcon';
+LetterSpacingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LetterSpacingIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2R = ["color"];
+var _excluded$2S = ["color", "iconType"];
 var LightningBoltIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2R);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2S);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3136,10 +4291,16 @@ var LightningBoltIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 LightningBoltIconIcon.displayName = 'LightningBoltIconIcon';
+LightningBoltIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LightningBoltIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2S = ["color"];
+var _excluded$2T = ["color", "iconType"];
 var LineHeightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2S);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2T);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3153,10 +4314,16 @@ var LineHeightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 LineHeightIconIcon.displayName = 'LineHeightIconIcon';
+LineHeightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LineHeightIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$2T = ["color"];
+var _excluded$2U = ["color", "iconType"];
 var LineWidthIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2T);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2U);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3175,10 +4342,16 @@ var LineWidthIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   })));
 });
 LineWidthIconIcon.displayName = 'LineWidthIconIcon';
+LineWidthIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LineWidthIconIcon.defaultProps = {
+  iconType: 'Lines'
+};
 
-var _excluded$2U = ["color"];
+var _excluded$2V = ["color", "iconType"];
 var Link1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2U);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2V);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3192,10 +4365,16 @@ var Link1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 Link1IconIcon.displayName = 'Link1IconIcon';
+Link1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Link1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2V = ["color"];
+var _excluded$2W = ["color", "iconType"];
 var Link2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2V);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2W);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3209,10 +4388,16 @@ var Link2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 Link2IconIcon.displayName = 'Link2IconIcon';
+Link2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Link2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2W = ["color"];
+var _excluded$2X = ["color", "iconType"];
 var LinkBreak1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2W);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2X);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3226,10 +4411,16 @@ var LinkBreak1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 LinkBreak1IconIcon.displayName = 'LinkBreak1IconIcon';
+LinkBreak1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LinkBreak1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2X = ["color"];
+var _excluded$2Y = ["color", "iconType"];
 var LinkBreak2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2X);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Y);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3243,10 +4434,16 @@ var LinkBreak2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 LinkBreak2IconIcon.displayName = 'LinkBreak2IconIcon';
+LinkBreak2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LinkBreak2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2Y = ["color"];
+var _excluded$2Z = ["color", "iconType"];
 var LinkNone1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Y);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Z);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3260,10 +4457,16 @@ var LinkNone1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 LinkNone1IconIcon.displayName = 'LinkNone1IconIcon';
+LinkNone1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LinkNone1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2Z = ["color"];
+var _excluded$2_ = ["color", "iconType"];
 var LinkNone2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2Z);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2_);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3277,10 +4480,16 @@ var LinkNone2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 LinkNone2IconIcon.displayName = 'LinkNone2IconIcon';
+LinkNone2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LinkNone2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$2_ = ["color"];
+var _excluded$2$ = ["color", "iconType"];
 var LinkedInLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2_);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2$);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3294,10 +4503,16 @@ var LinkedInLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 LinkedInLogoIconIcon.displayName = 'LinkedInLogoIconIcon';
+LinkedInLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LinkedInLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$2$ = ["color"];
+var _excluded$30 = ["color", "iconType"];
 var ListBulletIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$2$);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$30);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3311,10 +4526,16 @@ var ListBulletIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 ListBulletIconIcon.displayName = 'ListBulletIconIcon';
+ListBulletIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ListBulletIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$30 = ["color"];
+var _excluded$31 = ["color", "iconType"];
 var LockClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$30);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$31);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3328,10 +4549,16 @@ var LockClosedIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 LockClosedIconIcon.displayName = 'LockClosedIconIcon';
+LockClosedIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LockClosedIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$31 = ["color"];
+var _excluded$32 = ["color", "iconType"];
 var LockOpen1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$31);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$32);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3345,10 +4572,16 @@ var LockOpen1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 LockOpen1IconIcon.displayName = 'LockOpen1IconIcon';
+LockOpen1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LockOpen1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$32 = ["color"];
+var _excluded$33 = ["color", "iconType"];
 var LockOpen2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$32);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$33);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3362,10 +4595,16 @@ var LockOpen2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 LockOpen2IconIcon.displayName = 'LockOpen2IconIcon';
+LockOpen2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LockOpen2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$33 = ["color"];
+var _excluded$34 = ["color", "iconType"];
 var LoopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$33);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$34);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3379,10 +4618,16 @@ var LoopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 LoopIconIcon.displayName = 'LoopIconIcon';
+LoopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LoopIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$34 = ["color"];
+var _excluded$35 = ["color", "iconType"];
 var LoopOneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$34);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$35);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3407,10 +4652,16 @@ var LoopOneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   })));
 });
 LoopOneIconIcon.displayName = 'LoopOneIconIcon';
+LoopOneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+LoopOneIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$35 = ["color"];
+var _excluded$36 = ["color", "iconType"];
 var MagicWandIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$35);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$36);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3424,26 +4675,15 @@ var MagicWandIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 MagicWandIconIcon.displayName = 'MagicWandIconIcon';
+MagicWandIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MagicWandIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$36 = ["color"];
+var _excluded$37 = ["color", "iconType"];
 var MagnifierIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$36);
-
-  return React.createElement("svg", Object.assign({
-    width: "15",
-    height: "15",
-    xmlns: "http://www.w3.org/2000/svg"
-  }, props, {
-    ref: forwardedRef
-  }), React.createElement("path", {
-    d: "M6.5 11a4.5 4.5 0 1 1 3.516-1.691l2.838 2.837a.5.5 0 0 1-.708.708L9.31 10.016A4.481 4.481 0 0 1 6.5 11Zm0-1a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z",
-    fillRule: "evenodd"
-  }));
-});
-MagnifierIconIcon.displayName = 'MagnifierIconIcon';
-
-var _excluded$37 = ["color"];
-var MagnifyingGlassIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$37);
 
   return React.createElement("svg", Object.assign({
@@ -3457,11 +4697,40 @@ var MagnifyingGlassIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
     fillRule: "evenodd"
   }));
 });
-MagnifyingGlassIconIcon.displayName = 'MagnifyingGlassIconIcon';
+MagnifierIconIcon.displayName = 'MagnifierIconIcon';
+MagnifierIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MagnifierIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$38 = ["color"];
-var MarginIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
+var _excluded$38 = ["color", "iconType"];
+var MagnifyingGlassIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   var props = _objectWithoutPropertiesLoose(_ref, _excluded$38);
+
+  return React.createElement("svg", Object.assign({
+    width: "15",
+    height: "15",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props, {
+    ref: forwardedRef
+  }), React.createElement("path", {
+    d: "M6.5 11a4.5 4.5 0 1 1 3.516-1.691l2.838 2.837a.5.5 0 0 1-.708.708L9.31 10.016A4.481 4.481 0 0 1 6.5 11Zm0-1a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z",
+    fillRule: "evenodd"
+  }));
+});
+MagnifyingGlassIconIcon.displayName = 'MagnifyingGlassIconIcon';
+MagnifyingGlassIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MagnifyingGlassIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
+
+var _excluded$39 = ["color", "iconType"];
+var MarginIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$39);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3475,10 +4744,16 @@ var MarginIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 MarginIconIcon.displayName = 'MarginIconIcon';
+MarginIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MarginIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$39 = ["color"];
+var _excluded$3a = ["color", "iconType"];
 var MaskOffIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$39);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3a);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3492,10 +4767,16 @@ var MaskOffIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 MaskOffIconIcon.displayName = 'MaskOffIconIcon';
+MaskOffIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MaskOffIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3a = ["color"];
+var _excluded$3b = ["color", "iconType"];
 var MaskOnIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3a);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3b);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3509,10 +4790,16 @@ var MaskOnIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 MaskOnIconIcon.displayName = 'MaskOnIconIcon';
+MaskOnIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MaskOnIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3b = ["color"];
+var _excluded$3c = ["color", "iconType"];
 var MinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3b);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3c);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3525,10 +4812,16 @@ var MinusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 MinusIconIcon.displayName = 'MinusIconIcon';
+MinusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MinusIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3c = ["color"];
+var _excluded$3d = ["color", "iconType"];
 var MinusCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3c);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3d);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3542,10 +4835,16 @@ var MinusCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 MinusCircledIconIcon.displayName = 'MinusCircledIconIcon';
+MinusCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MinusCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3d = ["color"];
+var _excluded$3e = ["color", "iconType"];
 var MixIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3d);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3e);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3559,10 +4858,16 @@ var MixIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 MixIconIcon.displayName = 'MixIconIcon';
+MixIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MixIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3e = ["color"];
+var _excluded$3f = ["color", "iconType"];
 var MixerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3e);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3f);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3576,10 +4881,16 @@ var MixerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 MixerHorizontalIconIcon.displayName = 'MixerHorizontalIconIcon';
+MixerHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MixerHorizontalIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3f = ["color"];
+var _excluded$3g = ["color", "iconType"];
 var MixerVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3f);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3g);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3593,10 +4904,16 @@ var MixerVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 MixerVerticalIconIcon.displayName = 'MixerVerticalIconIcon';
+MixerVerticalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MixerVerticalIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3g = ["color"];
+var _excluded$3h = ["color", "iconType"];
 var MobileIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3g);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3h);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3610,10 +4927,16 @@ var MobileIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 MobileIconIcon.displayName = 'MobileIconIcon';
+MobileIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MobileIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3h = ["color"];
+var _excluded$3i = ["color", "iconType"];
 var ModulzLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3h);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3i);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3627,10 +4950,16 @@ var ModulzLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 ModulzLogoIconIcon.displayName = 'ModulzLogoIconIcon';
+ModulzLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ModulzLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$3i = ["color"];
+var _excluded$3j = ["color", "iconType"];
 var MoonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3i);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3j);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3644,10 +4973,16 @@ var MoonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 MoonIconIcon.displayName = 'MoonIconIcon';
+MoonIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MoonIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3j = ["color"];
+var _excluded$3k = ["color", "iconType"];
 var MoveIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3j);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3k);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3661,10 +4996,16 @@ var MoveIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 MoveIconIcon.displayName = 'MoveIconIcon';
+MoveIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+MoveIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$3k = ["color"];
+var _excluded$3l = ["color", "iconType"];
 var NotionLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3k);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3l);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3678,10 +5019,16 @@ var NotionLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 NotionLogoIconIcon.displayName = 'NotionLogoIconIcon';
+NotionLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+NotionLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$3l = ["color"];
+var _excluded$3m = ["color", "iconType"];
 var OpacityIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3l);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3m);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3695,10 +5042,16 @@ var OpacityIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 OpacityIconIcon.displayName = 'OpacityIconIcon';
+OpacityIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+OpacityIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3m = ["color"];
+var _excluded$3n = ["color", "iconType"];
 var OpenInNewWindowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3m);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3n);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3712,10 +5065,16 @@ var OpenInNewWindowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 OpenInNewWindowIconIcon.displayName = 'OpenInNewWindowIconIcon';
+OpenInNewWindowIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+OpenInNewWindowIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3n = ["color"];
+var _excluded$3o = ["color", "iconType"];
 var OverlineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3n);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3o);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3729,10 +5088,16 @@ var OverlineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 OverlineIconIcon.displayName = 'OverlineIconIcon';
+OverlineIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+OverlineIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$3o = ["color"];
+var _excluded$3p = ["color", "iconType"];
 var PaddingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3o);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3p);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3746,10 +5111,16 @@ var PaddingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 PaddingIconIcon.displayName = 'PaddingIconIcon';
+PaddingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PaddingIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3p = ["color"];
+var _excluded$3q = ["color", "iconType"];
 var PaperPlaneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3p);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3q);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3763,10 +5134,16 @@ var PaperPlaneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 PaperPlaneIconIcon.displayName = 'PaperPlaneIconIcon';
+PaperPlaneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PaperPlaneIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3q = ["color"];
+var _excluded$3r = ["color", "iconType"];
 var PauseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3q);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3r);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3780,10 +5157,16 @@ var PauseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 PauseIconIcon.displayName = 'PauseIconIcon';
+PauseIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PauseIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3r = ["color"];
+var _excluded$3s = ["color", "iconType"];
 var Pencil1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3r);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3s);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3797,10 +5180,16 @@ var Pencil1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 Pencil1IconIcon.displayName = 'Pencil1IconIcon';
+Pencil1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Pencil1IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3s = ["color"];
+var _excluded$3t = ["color", "iconType"];
 var Pencil2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3s);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3t);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3814,10 +5203,16 @@ var Pencil2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 Pencil2IconIcon.displayName = 'Pencil2IconIcon';
+Pencil2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Pencil2IconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3t = ["color"];
+var _excluded$3u = ["color", "iconType"];
 var PersonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3t);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3u);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3831,10 +5226,16 @@ var PersonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 PersonIconIcon.displayName = 'PersonIconIcon';
+PersonIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PersonIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3u = ["color"];
+var _excluded$3v = ["color", "iconType"];
 var PieChartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3u);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3v);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3848,10 +5249,16 @@ var PieChartIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 PieChartIconIcon.displayName = 'PieChartIconIcon';
+PieChartIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PieChartIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$3v = ["color"];
+var _excluded$3w = ["color", "iconType"];
 var PilcrowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3v);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3w);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3871,10 +5278,16 @@ var PilcrowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   })));
 });
 PilcrowIconIcon.displayName = 'PilcrowIconIcon';
+PilcrowIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PilcrowIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$3w = ["color"];
+var _excluded$3x = ["color", "iconType"];
 var PinBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3w);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3x);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3888,10 +5301,16 @@ var PinBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 PinBottomIconIcon.displayName = 'PinBottomIconIcon';
+PinBottomIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PinBottomIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$3x = ["color"];
+var _excluded$3y = ["color", "iconType"];
 var PinLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3x);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3y);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3905,10 +5324,16 @@ var PinLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 PinLeftIconIcon.displayName = 'PinLeftIconIcon';
+PinLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PinLeftIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$3y = ["color"];
+var _excluded$3z = ["color", "iconType"];
 var PinRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3y);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3z);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3922,10 +5347,16 @@ var PinRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 PinRightIconIcon.displayName = 'PinRightIconIcon';
+PinRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PinRightIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$3z = ["color"];
+var _excluded$3A = ["color", "iconType"];
 var PinTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3z);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3A);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3939,10 +5370,16 @@ var PinTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 PinTopIconIcon.displayName = 'PinTopIconIcon';
+PinTopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PinTopIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$3A = ["color"];
+var _excluded$3B = ["color", "iconType"];
 var PlayIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3A);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3B);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3956,10 +5393,16 @@ var PlayIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 PlayIconIcon.displayName = 'PlayIconIcon';
+PlayIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PlayIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3B = ["color"];
+var _excluded$3C = ["color", "iconType"];
 var PlayFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3B);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3C);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3973,10 +5416,16 @@ var PlayFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 PlayFilledIconIcon.displayName = 'PlayFilledIconIcon';
+PlayFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PlayFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3C = ["color"];
+var _excluded$3D = ["color", "iconType"];
 var PlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3C);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3D);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -3989,10 +5438,16 @@ var PlusIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 PlusIconIcon.displayName = 'PlusIconIcon';
+PlusIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PlusIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3D = ["color"];
+var _excluded$3E = ["color", "iconType"];
 var PlusCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3D);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3E);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4006,10 +5461,16 @@ var PlusCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 PlusCircledIconIcon.displayName = 'PlusCircledIconIcon';
+PlusCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+PlusCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3E = ["color"];
+var _excluded$3F = ["color", "iconType"];
 var QuestionMarkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3E);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3F);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4023,10 +5484,16 @@ var QuestionMarkIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 QuestionMarkIconIcon.displayName = 'QuestionMarkIconIcon';
+QuestionMarkIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+QuestionMarkIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3F = ["color"];
+var _excluded$3G = ["color", "iconType"];
 var QuestionMarkCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3F);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3G);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4040,10 +5507,16 @@ var QuestionMarkCircledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 QuestionMarkCircledIconIcon.displayName = 'QuestionMarkCircledIconIcon';
+QuestionMarkCircledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+QuestionMarkCircledIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3G = ["color"];
+var _excluded$3H = ["color", "iconType"];
 var QuoteIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3G);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3H);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4057,10 +5530,16 @@ var QuoteIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 QuoteIconIcon.displayName = 'QuoteIconIcon';
+QuoteIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+QuoteIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$3H = ["color"];
+var _excluded$3I = ["color", "iconType"];
 var RadiobuttonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3H);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3I);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4074,10 +5553,39 @@ var RadiobuttonIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 RadiobuttonIconIcon.displayName = 'RadiobuttonIconIcon';
+RadiobuttonIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RadiobuttonIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$3I = ["color"];
+var _excluded$3J = ["color", "iconType"];
+var ReactLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3J);
+
+  return React.createElement("svg", Object.assign({
+    width: "15",
+    height: "15",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props, {
+    ref: forwardedRef
+  }), React.createElement("path", {
+    d: "M11.754 5.388c-.147-.043-.272-.086-.42-.129.022-.107.043-.193.064-.3.314-1.585.105-2.87-.608-3.299-.691-.407-1.823.022-2.955 1.029-.104.107-.23.192-.335.3-.063-.065-.147-.129-.21-.215-1.194-1.092-2.389-1.542-3.1-1.114-.692.407-.901 1.607-.608 3.128.021.15.063.3.105.45-.168.043-.335.107-.482.15-1.404.514-2.41 1.307-2.41 2.1 0 .835 1.069 1.67 2.515 2.184.126.043.23.086.356.107-.042.172-.084.322-.105.493-.272 1.478-.063 2.656.629 3.063.712.429 1.907 0 3.06-1.05.083-.085.188-.17.272-.256.105.107.23.214.356.321 1.11.985 2.222 1.392 2.913.985.713-.428.943-1.692.629-3.234-.021-.107-.042-.236-.084-.364.084-.022.168-.043.251-.086 1.53-.471 2.62-1.307 2.62-2.164 0-.792-1.027-1.585-2.452-2.1Zm-3.541-2.27c.984-.88 1.886-1.2 2.305-.965.44.257.607 1.307.335 2.7a5.743 5.743 0 0 0-.063.278 12.525 12.525 0 0 0-1.76-.279 12.105 12.105 0 0 0-1.11-1.414c.083-.128.188-.214.293-.32ZM5.173 8.88c.127.235.273.47.42.685-.42-.043-.817-.107-1.215-.193.104-.385.251-.792.419-1.2.125.258.251.493.377.708Zm-.795-3.214c.377-.085.775-.15 1.194-.214-.147.214-.272.45-.398.686-.126.235-.252.45-.377.707a16.224 16.224 0 0 1-.42-1.179ZM5.09 7.51c.168-.365.356-.729.566-1.093.21-.364.419-.707.629-1.05.398-.021.796-.042 1.194-.042.398 0 .817.021 1.195.042.23.343.44.686.628 1.029.189.342.398.707.566 1.092-.168.364-.356.729-.566 1.093-.21.364-.419.707-.628 1.05-.399.02-.797.042-1.216.042-.419 0-.817-.021-1.194-.043-.23-.342-.44-.685-.65-1.05-.21-.363-.335-.706-.524-1.07Zm4.736 1.37.377-.706c.168.385.315.792.44 1.178a11.47 11.47 0 0 1-1.236.214c.147-.214.293-.45.42-.685Zm.377-2.056-.377-.707c-.126-.235-.272-.45-.398-.664.42.064.817.129 1.194.214a6.86 6.86 0 0 1-.419 1.157Zm-2.703-3c.272.3.524.621.775.964a18.716 18.716 0 0 0-1.55 0c.251-.364.524-.686.775-.964Zm-3.039-1.65c.44-.257 1.425.108 2.452 1.05.063.064.126.129.21.193-.398.45-.776.921-1.132 1.414a16.69 16.69 0 0 0-1.76.278c-.042-.128-.063-.278-.084-.407-.251-1.306-.084-2.27.314-2.528Zm-.628 7.07c-.105-.043-.21-.064-.336-.107-.565-.172-1.194-.472-1.655-.836a1.241 1.241 0 0 1-.503-.792c0-.493.838-1.114 2.033-1.543.146-.064.293-.107.46-.15.19.579.399 1.157.65 1.714a11.086 11.086 0 0 0-.65 1.714Zm3.038 2.613a4.76 4.76 0 0 1-1.488.943c-.293.15-.628.15-.922.043-.419-.257-.586-1.2-.356-2.464.021-.15.063-.3.105-.45a12.13 12.13 0 0 0 1.781.257c.335.493.734.986 1.132 1.436-.084.085-.168.171-.252.235Zm.65-.642c-.272-.3-.524-.622-.796-.964.251 0 .503.021.775.021s.545 0 .796-.021a32.4 32.4 0 0 1-.775.964Zm3.416.792a1.176 1.176 0 0 1-.44.836c-.42.257-1.3-.065-2.264-.921-.104-.108-.21-.193-.335-.3.398-.45.776-.921 1.11-1.436.609-.042 1.195-.15 1.782-.278l.063.321c.147.579.168 1.2.084 1.778Zm.482-2.87a3.38 3.38 0 0 1-.23.064 17.026 17.026 0 0 0-.671-1.714c.251-.535.46-1.114.65-1.692.146.043.272.086.397.128 1.216.429 2.075 1.071 2.075 1.564 0 .536-.901 1.2-2.221 1.65ZM7.5 8.73c.67 0 1.194-.557 1.194-1.221S8.15 6.288 7.5 6.288c-.65 0-1.194.557-1.194 1.22 0 .665.523 1.222 1.194 1.222Z",
+    fill: "#61DAFB"
+  }));
+});
+ReactLogoIconIcon.displayName = 'ReactLogoIconIcon';
+ReactLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ReactLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
+
+var _excluded$3K = ["color", "iconType"];
 var ReaderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3I);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3K);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4091,10 +5599,16 @@ var ReaderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 ReaderIconIcon.displayName = 'ReaderIconIcon';
+ReaderIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ReaderIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3J = ["color"];
+var _excluded$3L = ["color", "iconType"];
 var RecordIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3J);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3L);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4112,10 +5626,16 @@ var RecordIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 RecordIconIcon.displayName = 'RecordIconIcon';
+RecordIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RecordIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3K = ["color"];
+var _excluded$3M = ["color", "iconType"];
 var ReloadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3K);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3M);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4128,10 +5648,16 @@ var ReloadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 ReloadIconIcon.displayName = 'ReloadIconIcon';
+ReloadIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ReloadIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3L = ["color"];
+var _excluded$3N = ["color", "iconType"];
 var ResetIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3L);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3N);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4144,10 +5670,16 @@ var ResetIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 ResetIconIcon.displayName = 'ResetIconIcon';
+ResetIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ResetIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$3M = ["color"];
+var _excluded$3O = ["color", "iconType"];
 var ResumeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3M);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3O);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4161,10 +5693,16 @@ var ResumeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 ResumeIconIcon.displayName = 'ResumeIconIcon';
+ResumeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ResumeIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3N = ["color"];
+var _excluded$3P = ["color", "iconType"];
 var ResumeFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3N);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3P);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4178,10 +5716,16 @@ var ResumeFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ResumeFilledIconIcon.displayName = 'ResumeFilledIconIcon';
+ResumeFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ResumeFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$3O = ["color"];
+var _excluded$3Q = ["color", "iconType"];
 var RightWingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3O);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Q);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4194,10 +5738,16 @@ var RightWingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 RightWingIconIcon.displayName = 'RightWingIconIcon';
+RightWingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RightWingIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3P = ["color"];
+var _excluded$3R = ["color", "iconType"];
 var RocketIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3P);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3R);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4211,10 +5761,16 @@ var RocketIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 RocketIconIcon.displayName = 'RocketIconIcon';
+RocketIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RocketIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3Q = ["color"];
+var _excluded$3S = ["color", "iconType"];
 var RotateCounterClockwiseIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Q);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3S);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4228,10 +5784,16 @@ var RotateCounterClockwiseIconIcon = /*#__PURE__*/React.forwardRef(function (_re
   }));
 });
 RotateCounterClockwiseIconIcon.displayName = 'RotateCounterClockwiseIconIcon';
+RotateCounterClockwiseIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RotateCounterClockwiseIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3R = ["color"];
+var _excluded$3T = ["color", "iconType"];
 var RowSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3R);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3T);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4245,10 +5807,16 @@ var RowSpacingIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 RowSpacingIconIcon.displayName = 'RowSpacingIconIcon';
+RowSpacingIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RowSpacingIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3S = ["color"];
+var _excluded$3U = ["color", "iconType"];
 var RowsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3S);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3U);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4262,10 +5830,16 @@ var RowsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 RowsIconIcon.displayName = 'RowsIconIcon';
+RowsIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RowsIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3T = ["color"];
+var _excluded$3V = ["color", "iconType"];
 var RulerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3T);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3V);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4284,10 +5858,16 @@ var RulerHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   })));
 });
 RulerHorizontalIconIcon.displayName = 'RulerHorizontalIconIcon';
+RulerHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RulerHorizontalIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3U = ["color"];
+var _excluded$3W = ["color", "iconType"];
 var RulerSquareIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3U);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3W);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4306,10 +5886,16 @@ var RulerSquareIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   })));
 });
 RulerSquareIconIcon.displayName = 'RulerSquareIconIcon';
+RulerSquareIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+RulerSquareIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3V = ["color"];
+var _excluded$3X = ["color", "iconType"];
 var ScissorsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3V);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3X);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4328,10 +5914,16 @@ var ScissorsIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   })));
 });
 ScissorsIconIcon.displayName = 'ScissorsIconIcon';
+ScissorsIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ScissorsIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3W = ["color"];
+var _excluded$3Y = ["color", "iconType"];
 var SectionIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3W);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Y);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4345,10 +5937,16 @@ var SectionIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 SectionIconIcon.displayName = 'SectionIconIcon';
+SectionIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SectionIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$3X = ["color"];
+var _excluded$3Z = ["color", "iconType"];
 var SewingPinIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3X);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Z);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4362,10 +5960,16 @@ var SewingPinIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 SewingPinIconIcon.displayName = 'SewingPinIconIcon';
+SewingPinIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SewingPinIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3Y = ["color"];
+var _excluded$3_ = ["color", "iconType"];
 var SewingPinFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Y);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3_);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4378,10 +5982,16 @@ var SewingPinFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 SewingPinFilledIconIcon.displayName = 'SewingPinFilledIconIcon';
+SewingPinFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SewingPinFilledIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$3Z = ["color"];
+var _excluded$3$ = ["color", "iconType"];
 var ShadowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3Z);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3$);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4426,10 +6036,16 @@ var ShadowIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   })));
 });
 ShadowIconIcon.displayName = 'ShadowIconIcon';
+ShadowIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ShadowIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3_ = ["color"];
+var _excluded$40 = ["color", "iconType"];
 var ShadowInnerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3_);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$40);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4474,10 +6090,16 @@ var ShadowInnerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   })));
 });
 ShadowInnerIconIcon.displayName = 'ShadowInnerIconIcon';
+ShadowInnerIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ShadowInnerIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$3$ = ["color"];
+var _excluded$41 = ["color", "iconType"];
 var ShadowNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$3$);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$41);
 
   return React.createElement("svg", Object.assign({
     width: "13.246",
@@ -4522,10 +6144,16 @@ var ShadowNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   })));
 });
 ShadowNoneIconIcon.displayName = 'ShadowNoneIconIcon';
+ShadowNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ShadowNoneIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$40 = ["color"];
+var _excluded$42 = ["color", "iconType"];
 var ShadowOuterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$40);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$42);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4560,10 +6188,16 @@ var ShadowOuterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }))));
 });
 ShadowOuterIconIcon.displayName = 'ShadowOuterIconIcon';
+ShadowOuterIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ShadowOuterIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$41 = ["color"];
+var _excluded$43 = ["color", "iconType"];
 var Share1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$41);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$43);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4577,10 +6211,16 @@ var Share1IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 Share1IconIcon.displayName = 'Share1IconIcon';
+Share1IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Share1IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$42 = ["color"];
+var _excluded$44 = ["color", "iconType"];
 var Share2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$42);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$44);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4594,10 +6234,16 @@ var Share2IconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 Share2IconIcon.displayName = 'Share2IconIcon';
+Share2IconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+Share2IconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$43 = ["color"];
+var _excluded$45 = ["color", "iconType"];
 var ShuffleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$43);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$45);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4611,10 +6257,16 @@ var ShuffleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 ShuffleIconIcon.displayName = 'ShuffleIconIcon';
+ShuffleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ShuffleIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$44 = ["color"];
+var _excluded$46 = ["color", "iconType"];
 var SizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$44);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$46);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4627,10 +6279,16 @@ var SizeIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 SizeIconIcon.displayName = 'SizeIconIcon';
+SizeIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SizeIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$45 = ["color"];
+var _excluded$47 = ["color", "iconType"];
 var SketchLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$45);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$47);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4644,10 +6302,16 @@ var SketchLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 SketchLogoIconIcon.displayName = 'SketchLogoIconIcon';
+SketchLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SketchLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$46 = ["color"];
+var _excluded$48 = ["color", "iconType"];
 var SlashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$46);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$48);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4660,10 +6324,16 @@ var SlashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 SlashIconIcon.displayName = 'SlashIconIcon';
+SlashIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SlashIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$47 = ["color"];
+var _excluded$49 = ["color", "iconType"];
 var SliderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$47);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$49);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4677,10 +6347,16 @@ var SliderIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 SliderIconIcon.displayName = 'SliderIconIcon';
+SliderIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SliderIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$48 = ["color"];
+var _excluded$4a = ["color", "iconType"];
 var SolidIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$48);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4a);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4693,10 +6369,16 @@ var SolidIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 SolidIconIcon.displayName = 'SolidIconIcon';
+SolidIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SolidIconIcon.defaultProps = {
+  iconType: 'Lines'
+};
 
-var _excluded$49 = ["color"];
+var _excluded$4b = ["color", "iconType"];
 var SpaceBetweenHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$49);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4b);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4710,10 +6392,16 @@ var SpaceBetweenHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_
   }));
 });
 SpaceBetweenHorizontallyIconIcon.displayName = 'SpaceBetweenHorizontallyIconIcon';
+SpaceBetweenHorizontallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpaceBetweenHorizontallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4a = ["color"];
+var _excluded$4c = ["color", "iconType"];
 var SpaceBetweenVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4a);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4c);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4727,10 +6415,16 @@ var SpaceBetweenVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_re
   }));
 });
 SpaceBetweenVerticallyIconIcon.displayName = 'SpaceBetweenVerticallyIconIcon';
+SpaceBetweenVerticallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpaceBetweenVerticallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4b = ["color"];
+var _excluded$4d = ["color", "iconType"];
 var SpaceEvenlyHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4b);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4d);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4744,10 +6438,16 @@ var SpaceEvenlyHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_r
   }));
 });
 SpaceEvenlyHorizontallyIconIcon.displayName = 'SpaceEvenlyHorizontallyIconIcon';
+SpaceEvenlyHorizontallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpaceEvenlyHorizontallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4c = ["color"];
+var _excluded$4e = ["color", "iconType"];
 var SpaceEvenlyVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4c);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4e);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4761,10 +6461,16 @@ var SpaceEvenlyVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref
   }));
 });
 SpaceEvenlyVerticallyIconIcon.displayName = 'SpaceEvenlyVerticallyIconIcon';
+SpaceEvenlyVerticallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpaceEvenlyVerticallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4d = ["color"];
+var _excluded$4f = ["color", "iconType"];
 var SpeakerLoudIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4d);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4f);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4778,10 +6484,16 @@ var SpeakerLoudIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 SpeakerLoudIconIcon.displayName = 'SpeakerLoudIconIcon';
+SpeakerLoudIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerLoudIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4e = ["color"];
+var _excluded$4g = ["color", "iconType"];
 var SpeakerLoudFIlledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4e);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4g);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4795,10 +6507,16 @@ var SpeakerLoudFIlledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 SpeakerLoudFIlledIconIcon.displayName = 'SpeakerLoudFIlledIconIcon';
+SpeakerLoudFIlledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerLoudFIlledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4f = ["color"];
+var _excluded$4h = ["color", "iconType"];
 var SpeakerModerateIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4f);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4h);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4812,10 +6530,16 @@ var SpeakerModerateIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 SpeakerModerateIconIcon.displayName = 'SpeakerModerateIconIcon';
+SpeakerModerateIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerModerateIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4g = ["color"];
+var _excluded$4i = ["color", "iconType"];
 var SpeakerModerateFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4g);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4i);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4829,10 +6553,16 @@ var SpeakerModerateFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref
   }));
 });
 SpeakerModerateFilledIconIcon.displayName = 'SpeakerModerateFilledIconIcon';
+SpeakerModerateFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerModerateFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4h = ["color"];
+var _excluded$4j = ["color", "iconType"];
 var SpeakerOffIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4h);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4j);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4846,10 +6576,16 @@ var SpeakerOffIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 SpeakerOffIconIcon.displayName = 'SpeakerOffIconIcon';
+SpeakerOffIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerOffIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4i = ["color"];
+var _excluded$4k = ["color", "iconType"];
 var SpeakerOffFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4i);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4k);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4863,10 +6599,16 @@ var SpeakerOffFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 SpeakerOffFilledIconIcon.displayName = 'SpeakerOffFilledIconIcon';
+SpeakerOffFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerOffFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4j = ["color"];
+var _excluded$4l = ["color", "iconType"];
 var SpeakerQuietIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4j);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4l);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4879,10 +6621,16 @@ var SpeakerQuietIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 SpeakerQuietIconIcon.displayName = 'SpeakerQuietIconIcon';
+SpeakerQuietIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerQuietIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4k = ["color"];
+var _excluded$4m = ["color", "iconType"];
 var SpeakerQuietFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4k);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4m);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4896,10 +6644,16 @@ var SpeakerQuietFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, f
   }));
 });
 SpeakerQuietFilledIconIcon.displayName = 'SpeakerQuietFilledIconIcon';
+SpeakerQuietFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SpeakerQuietFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4l = ["color"];
+var _excluded$4n = ["color", "iconType"];
 var SquareIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4l);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4n);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4913,10 +6667,16 @@ var SquareIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 SquareIconIcon.displayName = 'SquareIconIcon';
+SquareIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SquareIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$4m = ["color"];
+var _excluded$4o = ["color", "iconType"];
 var StackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4m);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4o);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4930,10 +6690,16 @@ var StackIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 StackIconIcon.displayName = 'StackIconIcon';
+StackIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StackIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$4n = ["color"];
+var _excluded$4p = ["color", "iconType"];
 var StarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4n);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4p);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4947,10 +6713,16 @@ var StarIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 StarIconIcon.displayName = 'StarIconIcon';
+StarIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StarIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4o = ["color"];
+var _excluded$4q = ["color", "iconType"];
 var StarFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4o);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4q);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4963,10 +6735,16 @@ var StarFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 StarFilledIconIcon.displayName = 'StarFilledIconIcon';
+StarFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StarFilledIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4p = ["color"];
+var _excluded$4r = ["color", "iconType"];
 var StitchesLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4p);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4r);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4980,10 +6758,16 @@ var StitchesLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 StitchesLogoIconIcon.displayName = 'StitchesLogoIconIcon';
+StitchesLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StitchesLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$4q = ["color"];
+var _excluded$4s = ["color", "iconType"];
 var StopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4q);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4s);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -4997,10 +6781,16 @@ var StopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 StopIconIcon.displayName = 'StopIconIcon';
+StopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StopIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4r = ["color"];
+var _excluded$4t = ["color", "iconType"];
 var StopFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4r);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4t);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5014,10 +6804,16 @@ var StopFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 StopFilledIconIcon.displayName = 'StopFilledIconIcon';
+StopFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StopFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4s = ["color"];
+var _excluded$4u = ["color", "iconType"];
 var StopwatchIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4s);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4u);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5031,10 +6827,16 @@ var StopwatchIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 StopwatchIconIcon.displayName = 'StopwatchIconIcon';
+StopwatchIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StopwatchIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4t = ["color"];
+var _excluded$4v = ["color", "iconType"];
 var StretchHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4t);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4v);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5047,10 +6849,16 @@ var StretchHorizontallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 StretchHorizontallyIconIcon.displayName = 'StretchHorizontallyIconIcon';
+StretchHorizontallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StretchHorizontallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4u = ["color"];
+var _excluded$4w = ["color", "iconType"];
 var StretchVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4u);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4w);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5064,10 +6872,16 @@ var StretchVerticallyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, fo
   }));
 });
 StretchVerticallyIconIcon.displayName = 'StretchVerticallyIconIcon';
+StretchVerticallyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StretchVerticallyIconIcon.defaultProps = {
+  iconType: 'Alignment'
+};
 
-var _excluded$4v = ["color"];
+var _excluded$4x = ["color", "iconType"];
 var StrikethroughIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4v);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4x);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5081,10 +6895,16 @@ var StrikethroughIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 StrikethroughIconIcon.displayName = 'StrikethroughIconIcon';
+StrikethroughIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+StrikethroughIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4w = ["color"];
+var _excluded$4y = ["color", "iconType"];
 var SunIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4w);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4y);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5098,10 +6918,16 @@ var SunIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 SunIconIcon.displayName = 'SunIconIcon';
+SunIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SunIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4x = ["color"];
+var _excluded$4z = ["color", "iconType"];
 var SwitchIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4x);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4z);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5115,10 +6941,16 @@ var SwitchIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 SwitchIconIcon.displayName = 'SwitchIconIcon';
+SwitchIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SwitchIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$4y = ["color"];
+var _excluded$4A = ["color", "iconType"];
 var SymbolIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4y);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4A);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5132,10 +6964,16 @@ var SymbolIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 SymbolIconIcon.displayName = 'SymbolIconIcon';
+SymbolIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+SymbolIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$4z = ["color"];
+var _excluded$4B = ["color", "iconType"];
 var TableIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4z);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4B);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5149,10 +6987,16 @@ var TableIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 TableIconIcon.displayName = 'TableIconIcon';
+TableIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TableIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$4A = ["color"];
+var _excluded$4C = ["color", "iconType"];
 var TargetIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4A);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4C);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5166,10 +7010,16 @@ var TargetIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 TargetIconIcon.displayName = 'TargetIconIcon';
+TargetIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TargetIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4B = ["color"];
+var _excluded$4D = ["color", "iconType"];
 var TextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4B);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4D);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5182,10 +7032,16 @@ var TextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
   }));
 });
 TextIconIcon.displayName = 'TextIconIcon';
+TextIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4C = ["color"];
+var _excluded$4E = ["color", "iconType"];
 var TextAlignBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4C);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4E);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5199,10 +7055,16 @@ var TextAlignBottomIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 TextAlignBottomIconIcon.displayName = 'TextAlignBottomIconIcon';
+TextAlignBottomIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignBottomIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4D = ["color"];
+var _excluded$4F = ["color", "iconType"];
 var TextAlignCenterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4D);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4F);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5216,10 +7078,16 @@ var TextAlignCenterIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 TextAlignCenterIconIcon.displayName = 'TextAlignCenterIconIcon';
+TextAlignCenterIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignCenterIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4E = ["color"];
+var _excluded$4G = ["color", "iconType"];
 var TextAlignJustifyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4E);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4G);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5233,10 +7101,16 @@ var TextAlignJustifyIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 TextAlignJustifyIconIcon.displayName = 'TextAlignJustifyIconIcon';
+TextAlignJustifyIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignJustifyIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4F = ["color"];
+var _excluded$4H = ["color", "iconType"];
 var TextAlignLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4F);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4H);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5250,10 +7124,16 @@ var TextAlignLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 TextAlignLeftIconIcon.displayName = 'TextAlignLeftIconIcon';
+TextAlignLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignLeftIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4G = ["color"];
+var _excluded$4I = ["color", "iconType"];
 var TextAlignMiddleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4G);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4I);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5267,10 +7147,16 @@ var TextAlignMiddleIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 TextAlignMiddleIconIcon.displayName = 'TextAlignMiddleIconIcon';
+TextAlignMiddleIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignMiddleIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4H = ["color"];
+var _excluded$4J = ["color", "iconType"];
 var TextAlignRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4H);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4J);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5284,10 +7170,16 @@ var TextAlignRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 TextAlignRightIconIcon.displayName = 'TextAlignRightIconIcon';
+TextAlignRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignRightIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4I = ["color"];
+var _excluded$4K = ["color", "iconType"];
 var TextAlignTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4I);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4K);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5301,10 +7193,16 @@ var TextAlignTopIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 TextAlignTopIconIcon.displayName = 'TextAlignTopIconIcon';
+TextAlignTopIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextAlignTopIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4J = ["color"];
+var _excluded$4L = ["color", "iconType"];
 var TextNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4J);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4L);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5318,10 +7216,16 @@ var TextNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 TextNoneIconIcon.displayName = 'TextNoneIconIcon';
+TextNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TextNoneIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$4K = ["color"];
+var _excluded$4M = ["color", "iconType"];
 var ThickArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4K);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4M);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5335,10 +7239,16 @@ var ThickArrowDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 ThickArrowDownIconIcon.displayName = 'ThickArrowDownIconIcon';
+ThickArrowDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ThickArrowDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4L = ["color"];
+var _excluded$4N = ["color", "iconType"];
 var ThickArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4L);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4N);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5352,10 +7262,16 @@ var ThickArrowLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 ThickArrowLeftIconIcon.displayName = 'ThickArrowLeftIconIcon';
+ThickArrowLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ThickArrowLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4M = ["color"];
+var _excluded$4O = ["color", "iconType"];
 var ThickArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4M);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4O);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5369,10 +7285,16 @@ var ThickArrowRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 ThickArrowRightIconIcon.displayName = 'ThickArrowRightIconIcon';
+ThickArrowRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ThickArrowRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4N = ["color"];
+var _excluded$4P = ["color", "iconType"];
 var ThickArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4N);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4P);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5386,10 +7308,16 @@ var ThickArrowUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ThickArrowUpIconIcon.displayName = 'ThickArrowUpIconIcon';
+ThickArrowUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ThickArrowUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4O = ["color"];
+var _excluded$4Q = ["color", "iconType"];
 var TimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4O);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Q);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5403,10 +7331,16 @@ var TimerIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 TimerIconIcon.displayName = 'TimerIconIcon';
+TimerIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TimerIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4P = ["color"];
+var _excluded$4R = ["color", "iconType"];
 var TokensIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4P);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4R);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5420,10 +7354,16 @@ var TokensIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 TokensIconIcon.displayName = 'TokensIconIcon';
+TokensIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TokensIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$4Q = ["color"];
+var _excluded$4S = ["color", "iconType"];
 var TrackNextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Q);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4S);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5437,10 +7377,16 @@ var TrackNextIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 TrackNextIconIcon.displayName = 'TrackNextIconIcon';
+TrackNextIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TrackNextIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4R = ["color"];
+var _excluded$4T = ["color", "iconType"];
 var TrackNextFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4R);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4T);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5454,10 +7400,16 @@ var TrackNextFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forw
   }));
 });
 TrackNextFilledIconIcon.displayName = 'TrackNextFilledIconIcon';
+TrackNextFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TrackNextFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4S = ["color"];
+var _excluded$4U = ["color", "iconType"];
 var TrackPreviousIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4S);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4U);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5471,10 +7423,16 @@ var TrackPreviousIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 TrackPreviousIconIcon.displayName = 'TrackPreviousIconIcon';
+TrackPreviousIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TrackPreviousIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4T = ["color"];
+var _excluded$4V = ["color", "iconType"];
 var TrackPreviousFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4T);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4V);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5488,10 +7446,16 @@ var TrackPreviousFilledIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, 
   }));
 });
 TrackPreviousFilledIconIcon.displayName = 'TrackPreviousFilledIconIcon';
+TrackPreviousFilledIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TrackPreviousFilledIconIcon.defaultProps = {
+  iconType: 'Player'
+};
 
-var _excluded$4U = ["color"];
+var _excluded$4W = ["color", "iconType"];
 var TransformIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4U);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4W);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5505,10 +7469,16 @@ var TransformIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 TransformIconIcon.displayName = 'TransformIconIcon';
+TransformIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TransformIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$4V = ["color"];
+var _excluded$4X = ["color", "iconType"];
 var TransparencyGridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4V);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4X);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5523,10 +7493,16 @@ var TransparencyGridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, for
   }));
 });
 TransparencyGridIconIcon.displayName = 'TransparencyGridIconIcon';
+TransparencyGridIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TransparencyGridIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$4W = ["color"];
+var _excluded$4Y = ["color", "iconType"];
 var TrashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4W);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Y);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5540,10 +7516,16 @@ var TrashIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 TrashIconIcon.displayName = 'TrashIconIcon';
+TrashIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TrashIconIcon.defaultProps = {
+  iconType: 'Objects'
+};
 
-var _excluded$4X = ["color"];
+var _excluded$4Z = ["color", "iconType"];
 var TriangleDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4X);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Z);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5556,10 +7538,16 @@ var TriangleDownIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 TriangleDownIconIcon.displayName = 'TriangleDownIconIcon';
+TriangleDownIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TriangleDownIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4Y = ["color"];
+var _excluded$4_ = ["color", "iconType"];
 var TriangleLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Y);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4_);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5572,10 +7560,16 @@ var TriangleLeftIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 TriangleLeftIconIcon.displayName = 'TriangleLeftIconIcon';
+TriangleLeftIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TriangleLeftIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4Z = ["color"];
+var _excluded$4$ = ["color", "iconType"];
 var TriangleRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4Z);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4$);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5588,10 +7582,16 @@ var TriangleRightIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwar
   }));
 });
 TriangleRightIconIcon.displayName = 'TriangleRightIconIcon';
+TriangleRightIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TriangleRightIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4_ = ["color"];
+var _excluded$50 = ["color", "iconType"];
 var TriangleUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4_);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$50);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5604,10 +7604,16 @@ var TriangleUpIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 TriangleUpIconIcon.displayName = 'TriangleUpIconIcon';
+TriangleUpIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TriangleUpIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$4$ = ["color"];
+var _excluded$51 = ["color", "iconType"];
 var TwitterLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$4$);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$51);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5621,10 +7627,16 @@ var TwitterLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarde
   }));
 });
 TwitterLogoIconIcon.displayName = 'TwitterLogoIconIcon';
+TwitterLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+TwitterLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$50 = ["color"];
+var _excluded$52 = ["color", "iconType"];
 var UnderlineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$50);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$52);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5638,10 +7650,16 @@ var UnderlineIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 UnderlineIconIcon.displayName = 'UnderlineIconIcon';
+UnderlineIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+UnderlineIconIcon.defaultProps = {
+  iconType: 'Typography'
+};
 
-var _excluded$51 = ["color"];
+var _excluded$53 = ["color", "iconType"];
 var UpdateIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$51);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$53);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5655,10 +7673,16 @@ var UpdateIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 UpdateIconIcon.displayName = 'UpdateIconIcon';
+UpdateIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+UpdateIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$52 = ["color"];
+var _excluded$54 = ["color", "iconType"];
 var UploadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$52);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$54);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5672,10 +7696,16 @@ var UploadIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 UploadIconIcon.displayName = 'UploadIconIcon';
+UploadIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+UploadIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$53 = ["color"];
+var _excluded$55 = ["color", "iconType"];
 var ValueIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$53);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$55);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5689,10 +7719,16 @@ var ValueIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 ValueIconIcon.displayName = 'ValueIconIcon';
+ValueIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ValueIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$54 = ["color"];
+var _excluded$56 = ["color", "iconType"];
 var ValueNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$54);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$56);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5706,10 +7742,16 @@ var ValueNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedR
   }));
 });
 ValueNoneIconIcon.displayName = 'ValueNoneIconIcon';
+ValueNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ValueNoneIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$55 = ["color"];
+var _excluded$57 = ["color", "iconType"];
 var VercelLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$55);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$57);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5723,10 +7765,16 @@ var VercelLogoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwarded
   }));
 });
 VercelLogoIconIcon.displayName = 'VercelLogoIconIcon';
+VercelLogoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+VercelLogoIconIcon.defaultProps = {
+  iconType: 'Logos'
+};
 
-var _excluded$56 = ["color"];
+var _excluded$58 = ["color", "iconType"];
 var VideoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$56);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$58);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5740,10 +7788,16 @@ var VideoIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 VideoIconIcon.displayName = 'VideoIconIcon';
+VideoIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+VideoIconIcon.defaultProps = {
+  iconType: 'Components'
+};
 
-var _excluded$57 = ["color"];
+var _excluded$59 = ["color", "iconType"];
 var ViewGridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$57);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$59);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5757,10 +7811,16 @@ var ViewGridIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 ViewGridIconIcon.displayName = 'ViewGridIconIcon';
+ViewGridIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ViewGridIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$58 = ["color"];
+var _excluded$5a = ["color", "iconType"];
 var ViewHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$58);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5a);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5774,10 +7834,16 @@ var ViewHorizontalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwa
   }));
 });
 ViewHorizontalIconIcon.displayName = 'ViewHorizontalIconIcon';
+ViewHorizontalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ViewHorizontalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$59 = ["color"];
+var _excluded$5b = ["color", "iconType"];
 var ViewNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$59);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5b);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5791,10 +7857,16 @@ var ViewNoneIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRe
   }));
 });
 ViewNoneIconIcon.displayName = 'ViewNoneIconIcon';
+ViewNoneIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ViewNoneIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$5a = ["color"];
+var _excluded$5c = ["color", "iconType"];
 var ViewVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5a);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5c);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5808,10 +7880,16 @@ var ViewVerticalIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forward
   }));
 });
 ViewVerticalIconIcon.displayName = 'ViewVerticalIconIcon';
+ViewVerticalIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ViewVerticalIconIcon.defaultProps = {
+  iconType: 'Abstract'
+};
 
-var _excluded$5b = ["color"];
+var _excluded$5d = ["color", "iconType"];
 var WidthIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5b);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5d);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5824,10 +7902,16 @@ var WidthIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) 
   }));
 });
 WidthIconIcon.displayName = 'WidthIconIcon';
+WidthIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+WidthIconIcon.defaultProps = {
+  iconType: 'Arrows'
+};
 
-var _excluded$5c = ["color"];
+var _excluded$5e = ["color", "iconType"];
 var ZoomInIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5c);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5e);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5841,10 +7925,16 @@ var ZoomInIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef)
   }));
 });
 ZoomInIconIcon.displayName = 'ZoomInIconIcon';
+ZoomInIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ZoomInIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
-var _excluded$5d = ["color"];
+var _excluded$5f = ["color", "iconType"];
 var ZoomOutIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef) {
-  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5d);
+  var props = _objectWithoutPropertiesLoose(_ref, _excluded$5f);
 
   return React.createElement("svg", Object.assign({
     width: "15",
@@ -5858,6 +7948,12 @@ var ZoomOutIconIcon = /*#__PURE__*/React.forwardRef(function (_ref, forwardedRef
   }));
 });
 ZoomOutIconIcon.displayName = 'ZoomOutIconIcon';
+ZoomOutIconIcon.propTypes = {
+  iconType: PropTypes.string
+};
+ZoomOutIconIcon.defaultProps = {
+  iconType: 'Design'
+};
 
 exports.AccessibilityIcon = AccessibilityIconIcon;
 exports.ActivityLogIcon = ActivityLogIconIcon;
@@ -6024,6 +8120,7 @@ exports.HeightIcon = HeightIconIcon;
 exports.HobbyKnifeIcon = HobbyKnifeIconIcon;
 exports.HomeIcon = HomeIconIcon;
 exports.IconJarLogoIcon = IconJarLogoIconIcon;
+exports.IconfontLogoIcon = IconfontLogoIconIcon;
 exports.IdCardIcon = IdCardIconIcon;
 exports.ImageIcon = ImageIconIcon;
 exports.InfoCircledIcon = InfoCircledIconIcon;
@@ -6095,6 +8192,7 @@ exports.QuestionMarkCircledIcon = QuestionMarkCircledIconIcon;
 exports.QuestionMarkIcon = QuestionMarkIconIcon;
 exports.QuoteIcon = QuoteIconIcon;
 exports.RadiobuttonIcon = RadiobuttonIconIcon;
+exports.ReactLogoIcon = ReactLogoIconIcon;
 exports.ReaderIcon = ReaderIconIcon;
 exports.RecordIcon = RecordIconIcon;
 exports.ReloadIcon = ReloadIconIcon;
@@ -6193,20 +8291,201 @@ exports.ViewVerticalIcon = ViewVerticalIconIcon;
 exports.WidthIcon = WidthIconIcon;
 exports.ZoomInIcon = ZoomInIconIcon;
 exports.ZoomOutIcon = ZoomOutIconIcon;
-//# sourceMappingURL=reacticons.cjs.development.js.map
+//# sourceMappingURL=react-icons.cjs.development.js.map
 
 
 /***/ }),
 
-/***/ "./index.js":
-/*!******************!*\
-  !*** ./index.js ***!
-  \******************/
-/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+/***/ "./previewSite/index.js":
+/*!******************************!*\
+  !*** ./previewSite/index.js ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-module.exports = __webpack_require__(/*! ./dist/index.js */ "./dist/index.js");
-module.exports.__esModule = true;
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_dom_client__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom/client */ "./node_modules/react-dom/client.js");
+/* harmony import */ var _main__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./main */ "./previewSite/main.jsx");
+/**
+ * Author: DrowsyFlesh
+ * Create: 2022/8/14
+ * Description:
+ */
 
+
+
+const root = document.createElement('div');
+root.id = 'root';
+document.body.append(root);
+const main = react_dom_client__WEBPACK_IMPORTED_MODULE_1__.createRoot(root);
+main.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default().createElement(_main__WEBPACK_IMPORTED_MODULE_2__["default"], null));
+
+/***/ }),
+
+/***/ "./previewSite/main.jsx":
+/*!******************************!*\
+  !*** ./previewSite/main.jsx ***!
+  \******************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_entries__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/core-js/object/entries */ "./node_modules/@babel/runtime-corejs2/core-js/object/entries.js");
+/* harmony import */ var _babel_runtime_corejs2_core_js_object_entries__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_babel_runtime_corejs2_core_js_object_entries__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var styled_components__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! styled-components */ "./node_modules/styled-components/dist/styled-components.browser.esm.js");
+/* harmony import */ var Icons__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! Icons */ "./dist/index.js");
+
+
+
+/**
+ * Author: DrowsyFlesh
+ * Create: 2022/8/14
+ * Description:
+ */
+
+
+
+console.log(Icons__WEBPACK_IMPORTED_MODULE_3__);
+const iconTypeMap = {};
+
+const beautyIconNames = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(Icons__WEBPACK_IMPORTED_MODULE_3__).reduce((final, name) => {
+  final[name] = name.replace(/[A-Z]/g, (matched, index) => {
+    if (index) {
+      return ' ' + matched;
+    } else return matched;
+  });
+  const {
+    iconType
+  } = Icons__WEBPACK_IMPORTED_MODULE_3__[name].defaultProps;
+
+  if (!iconTypeMap[iconType]) {
+    iconTypeMap[iconType] = [];
+  }
+
+  iconTypeMap[iconType].push(name);
+  return final;
+}, {});
+
+const originNames = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_0___default()(Icons__WEBPACK_IMPORTED_MODULE_3__);
+
+const GlobalStyle = styled_components__WEBPACK_IMPORTED_MODULE_4__.createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+  }
+`;
+const Wrapper = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div`
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 50%);
+
+  .searcher {
+    position: sticky;
+    top: 8px;
+    grid-column: 1/-1;
+    margin: 8px 8px 32px;
+    padding: 8px;
+    width: calc(100% - 16px);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 22px;
+    z-index: 1;
+
+  }
+
+  .topic {
+    text-align: center;
+    font-size: 32px;
+  }
+
+  .icons {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 100px);
+    justify-content: center;
+  }
+`;
+const IconWrapper = styled_components__WEBPACK_IMPORTED_MODULE_4__["default"].div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 8px;
+  width: 80px;
+  height: 110px;
+
+  :hover {
+    svg {
+      transform: scale(2);
+    }
+  }
+
+  .inner {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    zoom: 1.5;
+
+    svg {
+      //transition: transform .3s;
+    }
+  }
+
+  .icon-name {
+    margin: 0;
+    font-size: 12px;
+    word-break: break-word;
+    text-align: center;
+    zoom: 0.8;
+  }
+`;
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (() => {
+  const [iconNames, setIconNames] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(originNames);
+  const onChange = (0,react__WEBPACK_IMPORTED_MODULE_2__.useCallback)(e => {
+    e.persist();
+    const searchText = e.target.value.trim();
+
+    if (searchText) {
+      const regexp = new RegExp(searchText, 'i');
+      const matched = originNames.filter(name => !!name.match(regexp));
+      setIconNames(matched);
+    } else {
+      setIconNames(originNames);
+    }
+  }, []);
+  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(Wrapper, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(GlobalStyle, null), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("input", {
+    className: "searcher",
+    onChange: onChange
+  }), _babel_runtime_corejs2_core_js_object_entries__WEBPACK_IMPORTED_MODULE_1___default()(iconTypeMap).map(([typeName, iconNameList]) => {
+    const matchedIconNameList = iconNameList.filter(name => iconNames.includes(name));
+    if (!matchedIconNameList.length) return null;
+    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+      className: "types",
+      key: typeName
+    }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("h3", {
+      className: "topic"
+    }, typeName), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+      className: "icons"
+    }, matchedIconNameList.map(iconName => {
+      const IconComponent = Icons__WEBPACK_IMPORTED_MODULE_3__[iconName];
+      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(IconWrapper, {
+        key: iconName
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("div", {
+        className: "inner"
+      }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement(IconComponent, null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_2___default().createElement("p", {
+        className: "icon-name"
+      }, beautyIconNames[iconName]));
+    })));
+  }));
+});
 
 /***/ })
 
@@ -6275,9 +8554,44 @@ module.exports.__esModule = true;
 /******/ 		};
 /******/ 	})();
 /******/ 	
+/******/ 	/* webpack/runtime/compat get default export */
+/******/ 	(() => {
+/******/ 		// getDefaultExport function for compatibility with non-harmony modules
+/******/ 		__webpack_require__.n = (module) => {
+/******/ 			var getter = module && module.__esModule ?
+/******/ 				() => (module['default']) :
+/******/ 				() => (module);
+/******/ 			__webpack_require__.d(getter, { a: getter });
+/******/ 			return getter;
+/******/ 		};
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/define property getters */
+/******/ 	(() => {
+/******/ 		// define getter functions for harmony exports
+/******/ 		__webpack_require__.d = (exports, definition) => {
+/******/ 			for(var key in definition) {
+/******/ 				if(__webpack_require__.o(definition, key) && !__webpack_require__.o(exports, key)) {
+/******/ 					Object.defineProperty(exports, key, { enumerable: true, get: definition[key] });
+/******/ 				}
+/******/ 			}
+/******/ 		};
+/******/ 	})();
+/******/ 	
 /******/ 	/* webpack/runtime/hasOwnProperty shorthand */
 /******/ 	(() => {
 /******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
+/******/ 	})();
+/******/ 	
+/******/ 	/* webpack/runtime/make namespace object */
+/******/ 	(() => {
+/******/ 		// define __esModule on exports
+/******/ 		__webpack_require__.r = (exports) => {
+/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
+/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
+/******/ 			}
+/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
+/******/ 		};
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/node module decorator */
@@ -6337,7 +8651,7 @@ module.exports.__esModule = true;
 /******/ 			return __webpack_require__.O(result);
 /******/ 		}
 /******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk_bilibilihelper_reactIcons"] = self["webpackChunk_bilibilihelper_reactIcons"] || [];
+/******/ 		var chunkLoadingGlobal = self["webpackChunk_bilibilihelper_react_icons"] = self["webpackChunk_bilibilihelper_react_icons"] || [];
 /******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
 /******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
 /******/ 	})();
@@ -6347,8 +8661,9 @@ module.exports.__esModule = true;
 /******/ 	// startup
 /******/ 	// Load entry module and return exports
 /******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors.bundle"], () => (__webpack_require__("./index.js")))
+/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["vendors.bundle"], () => (__webpack_require__("./previewSite/index.js")))
 /******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
 /******/ 	
 /******/ })()
 ;
+//# sourceMappingURL=main.js.map
