@@ -1,12 +1,9 @@
 {
-    "name": "@bilibilihelper/reactIcons",
+    "name": "@bilibilihelper/react-icons",
     "private": false,
-    "version": "2.0.0",
+    "version": "2.0.1",
     "license": "MIT",
     "description": "Radix UI React Icon Set",
-    "authors": [
-        "DrowsyFlesh <jjj201200@gmail.com>"
-    ],
     "module": "dist/reactIcons.esm.js",
     "main": "index.js",
     "types": "dist/index.d.ts",
@@ -77,19 +74,23 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/bilibili-helper/reactIcons.git"
+        "url": "git+https://github.com/bilibili-helper/react-icons.git"
     },
     "keywords": [
         "bilibilihelper",
         "icons"
     ],
     "bugs": {
-        "url": "https://github.com/bilibili-helper/reactIcons/issues"
+        "url": "https://github.com/bilibili-helper/react-icons/issues"
     },
-    "homepage": "https://github.com/bilibili-helper/reactIcons#readme",
+    "homepage": "https://github.com/bilibili-helper/react-icons#readme",
     "dependencies": {
         "prop-types": "^15.8.1",
         "react-dom": "^18.2.0",
         "styled-components": "^5.3.5"
-    }
+    },
+    "directories": {
+        "doc": "docs"
+    },
+    "author": "DrowsyFlesh"
 }
