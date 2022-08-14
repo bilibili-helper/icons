@@ -21,8 +21,8 @@
     "access": "public"
   },
   "scripts": {
-    "build": "rimraf dist && tsdx build --format es,cjs --entry src/index.tsx",
-    "watch": "rimraf dist && tsdx watch --format es,cjs --entry src/index.tsx",
+    "build": "rm -rf dist/ && tsdx build --format es,cjs --entry src/index.tsx",
+    "watch": "rm -rf dist/ && tsdx watch --format es,cjs --entry src/index.tsx",
     "prepublishOnly": "npm run build"
   },
   "peerDependencies": {
