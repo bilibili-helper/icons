@@ -2,7 +2,7 @@
 
 A crisp set of 15×15 icons designed by the [WorkOS](https://workos.com) team.
 
-Visit [icons.radix-ui.com](https://icons.radix-ui.com) to browse the icons.
+Visit [https://bilibili-helper.github.io/react-icons/](https://bilibili-helper.github.io/react-icons/) to browse the icons.
 
 ---
 
