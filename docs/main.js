@@ -143,7 +143,7 @@
     position: absolute;
     bottom: 100%;
     margin: 8px -64px 4px;
-    width: calc(100% + 108px);
+    width: calc(100% + 87px + 15px);
     font-size: 12px;
     word-break: break-word;
     text-align: center;
