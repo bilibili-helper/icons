@@ -1,7 +1,7 @@
 {
     "name": "@bilibilihelper/react-icons",
     "private": false,
-    "version": "2.0.1",
+    "version": "2.0.2",
     "license": "MIT",
     "description": "Radix UI React Icon Set",
     "module": "dist/reactIcons.esm.js",
@@ -21,8 +21,8 @@
         "build": "rm -rf dist/ && tsdx build --format es,cjs --entry src/index.js",
         "watch": "rm -rf dist/ && tsdx watch --format es,cjs --entry src/index.js",
         "prepublishOnly": "npm run build",
-        "buildPreview": "webpack  --env production --config=./previewSite/webpack.config.js --progress",
-        "start": "webpack serve --hot --config=./previewSite/webpack.config.js --progress"
+        "build:site": "webpack --env production --config=./previewSite/webpack.config.js --progress",
+        "start": "webpack serve --env development --hot --config=./previewSite/webpack.config.js --progress"
     },
     "peerDependencies": {
         "react": "^18.2.0"
@@ -66,8 +66,10 @@
         "babel-plugin-transform-builtin-classes": "^0.6.1",
         "case-sensitive-paths-webpack-plugin": "^2.4.0",
         "circular-dependency-plugin": "^5.2.2",
+        "css-minimizer-webpack-plugin": "^4.0.0",
         "html-webpack-plugin": "^5.5.0",
         "mini-css-extract-plugin": "^2.6.1",
+        "terser-webpack-plugin": "^5.3.4",
         "tsdx": "0.14.0",
         "webpack-cli": "^4.10.0",
         "webpack-dev-server": "^4.10.0"
@@ -85,12 +87,10 @@
     },
     "homepage": "https://github.com/bilibili-helper/react-icons#readme",
     "dependencies": {
+        "classnames": "^2.3.1",
         "prop-types": "^15.8.1",
         "react-dom": "^18.2.0",
         "styled-components": "^5.3.5"
-    },
-    "directories": {
-        "doc": "docs"
     },
     "author": "DrowsyFlesh"
 }

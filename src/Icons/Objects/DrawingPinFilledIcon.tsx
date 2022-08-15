@@ -2,13 +2,13 @@ import * as React from 'react';
 import {IconProps} from '../types';
 import PropTypes from 'prop-types';
 
-export const DrawingPinFilledIconIcon = React.forwardRef<SVGSVGElement, IconProps>(
+export const DrawingPinFilledIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
-        return <svg width="11.341" height="11.341" xmlns="http://www.w3.org/2000/svg" {...props} ref={forwardedRef}><path d="M6.952.146a.5.5 0 0 0 0 .708l.653.653-4.848 3.636-1.108-1.107a.5.5 0 1 0-.707.707l2.475 2.475-3.27 3.27a.5.5 0 1 0 .707.707l3.27-3.27 2.475 2.474a.5.5 0 1 0 .707-.707L6.198 8.585l3.637-4.849.653.653a.5.5 0 1 0 .707-.707L7.659.146a.5.5 0 0 0-.707 0Z" fillRule="evenodd"/></svg>;
+        return <svg width="15" height="15" xmlns="http://www.w3.org/2000/svg" {...props} ref={forwardedRef}><path d="M8.952 2.146a.5.5 0 0 0 0 .708l.653.653-4.848 3.636-1.108-1.107a.5.5 0 1 0-.707.707l2.475 2.475-3.27 3.27a.5.5 0 1 0 .707.707l3.27-3.27 2.475 2.474a.5.5 0 1 0 .707-.707l-1.108-1.107 3.637-4.849.653.653a.5.5 0 1 0 .707-.707L9.659 2.146a.5.5 0 0 0-.707 0Z" fillRule="evenodd"/></svg>;
     }
 );
-DrawingPinFilledIconIcon.displayName = 'DrawingPinFilledIconIcon';
-DrawingPinFilledIconIcon.propTypes = {iconType: PropTypes.string};
-DrawingPinFilledIconIcon.defaultProps = {iconType: 'Objects'};
+DrawingPinFilledIcon.displayName = 'DrawingPinFilledIcon';
+DrawingPinFilledIcon.propTypes = {iconType: PropTypes.string};
+DrawingPinFilledIcon.defaultProps = {iconType: 'Objects'};
 
-export default DrawingPinFilledIconIcon;
+export default DrawingPinFilledIcon;
