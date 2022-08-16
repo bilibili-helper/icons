@@ -56,6 +56,10 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     font-size: 20px;
     z-index: 1;
+    
+    ::placeholder {
+      font-size: 16px;
+    }
   }
 
   .types {
@@ -94,13 +98,13 @@ const Wrapper = styled.div`
 
   .tips {
     position: fixed;
-    top: 32px;
+    top: 38px;
     left: 0;
     right: 0;
     margin: 0 auto;
     padding: 8px 0;
     width: 300px;
-    line-height: 15px;
+    line-height: 35px;
     background-color: white;
     text-align: center;
     pointer-events: none;
@@ -113,10 +117,14 @@ const Wrapper = styled.div`
 
     .copied-icon {
       margin-left: 8px;
+      padding: 10px;
       display: inline-block;
       vertical-align: bottom;
       width: 15px;
       height: 15px;
+      line-height: 15px;
+      border-radius: 2px;
+      background-color: antiquewhite;
     }
   }
 
@@ -267,7 +275,11 @@ export default () => {
     }, []);
 
     const onClick = useCallback((e) => {
-        const text = Array.from(e.target.childNodes.values())[0].outerHTML;
+        let {target} = e;
+        if (target.classList.contains('icon-name')) {
+            target = target.parentElement;
+        }
+        const text = target.querySelector('svg').outerHTML;
         setCopiedSVG(text);
         const textarea = document.createElement('textarea');
         textarea.value = text;
@@ -300,14 +312,12 @@ export default () => {
         <div className={classnames({types: true, hide: showSearchResult})}>
             {IconMap.map(({type, list}) => {
                 if (!list.length) return null;
-                console.log(type, list);
                 return <div className="type" key={type}>
                     <h3 className="topic">{type}</h3>
                     <div className="icons">
                         {list.map((iconName) => {
                             if (typeof iconName === 'string') {
                                 const IconComponent = ReactIcons[iconName];
-                                console.log(IconComponent, iconName);
                                 return <IconBlockWrapper key={iconName} onClick={onClick}>
                                     <div className="inner">
                                         <IconComponent/>
@@ -317,7 +327,6 @@ export default () => {
                             } else if (iconName.name && iconName.size instanceof Array && iconName.size.length === 2) {
                                 const {name, size} = iconName;
                                 const IconComponent = ReactIcons[name];
-                                console.log(iconName, IconComponent);
                                 return <IconBlockWrapper key={name} onClick={onClick} style={{
                                     gridColumnStart: 1,
                                     gridColumnEnd: ((size[0] - 15) / 30),
@@ -336,7 +345,7 @@ export default () => {
         <div className={classnames({searched: true, hide: !showSearchResult})}>
             {searchResult.length ? searchResult.map((iconName) => {
                 const IconComponent = ReactIcons[iconName + 'Icon'];
-                return <IconLineWrapper key={iconName} onClick={onClick}>
+                return <IconLineWrapper key={iconName} className="icon-line" onClick={onClick}>
                     <div className="inner">
                         <IconComponent/>
                     </div>
