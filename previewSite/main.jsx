@@ -56,7 +56,7 @@ const Wrapper = styled.div`
     box-sizing: border-box;
     font-size: 20px;
     z-index: 1;
-    
+
     ::placeholder {
       font-size: 16px;
     }
@@ -90,7 +90,7 @@ const Wrapper = styled.div`
     display: grid;
     //grid-template-columns: repeat(auto-fit, 50px);
 
-    grid-template-columns: repeat(4, var(--icon-size));
+    grid-template-columns: repeat(4, calc(var(--icon-size) + 10px * 2));
     grid-gap: var(--gap-size);
     justify-content: center;
     margin: 0 auto;
@@ -328,8 +328,8 @@ export default () => {
                                 const {name, size} = iconName;
                                 const IconComponent = ReactIcons[name];
                                 return <IconBlockWrapper key={name} onClick={onClick} style={{
-                                    gridColumnStart: 1,
-                                    gridColumnEnd: ((size[0] - 15) / 30),
+                                    //gridColumnStart: 1,
+                                    gridColumn: `span ${((size[0] - 15) / 30)}`,
                                 }}>
                                     <div className="inner">
                                         <IconComponent/>
