@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const TrashIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const TrashIcon = React.forwardRef<SVGSVGElement, IconProps>(
 TrashIcon.displayName = 'TrashIcon';
 TrashIcon.propTypes = {iconType: PropTypes.string};
 TrashIcon.defaultProps = {iconType: 'Objects'};
-
-export default TrashIcon;

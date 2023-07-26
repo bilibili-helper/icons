@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const DashboardIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const DashboardIcon = React.forwardRef<SVGSVGElement, IconProps>(
 DashboardIcon.displayName = 'DashboardIcon';
 DashboardIcon.propTypes = {iconType: PropTypes.string};
 DashboardIcon.defaultProps = {iconType: 'Components'};
-
-export default DashboardIcon;

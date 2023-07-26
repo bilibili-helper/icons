@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const ShadowInnerIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Design', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const ShadowInnerIcon = React.forwardRef<SVGSVGElement, IconProps>(
 ShadowInnerIcon.displayName = 'ShadowInnerIcon';
 ShadowInnerIcon.propTypes = {iconType: PropTypes.string};
 ShadowInnerIcon.defaultProps = {iconType: 'Design'};
-
-export default ShadowInnerIcon;

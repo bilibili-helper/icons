@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const Crosshair2Icon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const Crosshair2Icon = React.forwardRef<SVGSVGElement, IconProps>(
 Crosshair2Icon.displayName = 'Crosshair2Icon';
 Crosshair2Icon.propTypes = {iconType: PropTypes.string};
 Crosshair2Icon.defaultProps = {iconType: 'Objects'};
-
-export default Crosshair2Icon;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const DividerVerticalIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const DividerVerticalIcon = React.forwardRef<SVGSVGElement, IconProps>(
 DividerVerticalIcon.displayName = 'DividerVerticalIcon';
 DividerVerticalIcon.propTypes = {iconType: PropTypes.string};
 DividerVerticalIcon.defaultProps = {iconType: 'Components'};
-
-export default DividerVerticalIcon;

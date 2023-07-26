@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const PieChartIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const PieChartIcon = React.forwardRef<SVGSVGElement, IconProps>(
 PieChartIcon.displayName = 'PieChartIcon';
 PieChartIcon.propTypes = {iconType: PropTypes.string};
 PieChartIcon.defaultProps = {iconType: 'Components'};
-
-export default PieChartIcon;

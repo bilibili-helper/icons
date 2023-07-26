@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const LockOpen2Icon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const LockOpen2Icon = React.forwardRef<SVGSVGElement, IconProps>(
 LockOpen2Icon.displayName = 'LockOpen2Icon';
 LockOpen2Icon.propTypes = {iconType: PropTypes.string};
 LockOpen2Icon.defaultProps = {iconType: 'Objects'};
-
-export default LockOpen2Icon;

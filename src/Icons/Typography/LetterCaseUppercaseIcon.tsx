@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const LetterCaseUppercaseIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Typography', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const LetterCaseUppercaseIcon = React.forwardRef<SVGSVGElement, IconProps
 LetterCaseUppercaseIcon.displayName = 'LetterCaseUppercaseIcon';
 LetterCaseUppercaseIcon.propTypes = {iconType: PropTypes.string};
 LetterCaseUppercaseIcon.defaultProps = {iconType: 'Typography'};
-
-export default LetterCaseUppercaseIcon;

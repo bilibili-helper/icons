@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const ExclamationTriangleIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Abstract', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const ExclamationTriangleIcon = React.forwardRef<SVGSVGElement, IconProps
 ExclamationTriangleIcon.displayName = 'ExclamationTriangleIcon';
 ExclamationTriangleIcon.propTypes = {iconType: PropTypes.string};
 ExclamationTriangleIcon.defaultProps = {iconType: 'Abstract'};
-
-export default ExclamationTriangleIcon;

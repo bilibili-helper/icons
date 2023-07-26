@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const DropdownMenuIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const DropdownMenuIcon = React.forwardRef<SVGSVGElement, IconProps>(
 DropdownMenuIcon.displayName = 'DropdownMenuIcon';
 DropdownMenuIcon.propTypes = {iconType: PropTypes.string};
 DropdownMenuIcon.defaultProps = {iconType: 'Components'};
-
-export default DropdownMenuIcon;

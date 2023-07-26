@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const MobileIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const MobileIcon = React.forwardRef<SVGSVGElement, IconProps>(
 MobileIcon.displayName = 'MobileIcon';
 MobileIcon.propTypes = {iconType: PropTypes.string};
 MobileIcon.defaultProps = {iconType: 'Objects'};
-
-export default MobileIcon;

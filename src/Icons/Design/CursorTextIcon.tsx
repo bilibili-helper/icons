@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const CursorTextIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Design', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const CursorTextIcon = React.forwardRef<SVGSVGElement, IconProps>(
 CursorTextIcon.displayName = 'CursorTextIcon';
 CursorTextIcon.propTypes = {iconType: PropTypes.string};
 CursorTextIcon.defaultProps = {iconType: 'Design'};
-
-export default CursorTextIcon;

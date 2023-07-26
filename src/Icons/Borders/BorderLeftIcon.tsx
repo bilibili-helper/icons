@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const BorderLeftIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Borders', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const BorderLeftIcon = React.forwardRef<SVGSVGElement, IconProps>(
 BorderLeftIcon.displayName = 'BorderLeftIcon';
 BorderLeftIcon.propTypes = {iconType: PropTypes.string};
 BorderLeftIcon.defaultProps = {iconType: 'Borders'};
-
-export default BorderLeftIcon;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const PinTopIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Alignment', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const PinTopIcon = React.forwardRef<SVGSVGElement, IconProps>(
 PinTopIcon.displayName = 'PinTopIcon';
 PinTopIcon.propTypes = {iconType: PropTypes.string};
 PinTopIcon.defaultProps = {iconType: 'Alignment'};
-
-export default PinTopIcon;

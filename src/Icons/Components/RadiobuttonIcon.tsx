@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const RadiobuttonIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const RadiobuttonIcon = React.forwardRef<SVGSVGElement, IconProps>(
 RadiobuttonIcon.displayName = 'RadiobuttonIcon';
 RadiobuttonIcon.propTypes = {iconType: PropTypes.string};
 RadiobuttonIcon.defaultProps = {iconType: 'Components'};
-
-export default RadiobuttonIcon;

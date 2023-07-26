@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const FontFamilyIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Typography', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const FontFamilyIcon = React.forwardRef<SVGSVGElement, IconProps>(
 FontFamilyIcon.displayName = 'FontFamilyIcon';
 FontFamilyIcon.propTypes = {iconType: PropTypes.string};
 FontFamilyIcon.defaultProps = {iconType: 'Typography'};
-
-export default FontFamilyIcon;

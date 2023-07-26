@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const LinkNone2Icon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const LinkNone2Icon = React.forwardRef<SVGSVGElement, IconProps>(
 LinkNone2Icon.displayName = 'LinkNone2Icon';
 LinkNone2Icon.propTypes = {iconType: PropTypes.string};
 LinkNone2Icon.defaultProps = {iconType: 'Objects'};
-
-export default LinkNone2Icon;

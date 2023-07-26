@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const SpaceBetweenVerticallyIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Alignment', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const SpaceBetweenVerticallyIcon = React.forwardRef<SVGSVGElement, IconPr
 SpaceBetweenVerticallyIcon.displayName = 'SpaceBetweenVerticallyIcon';
 SpaceBetweenVerticallyIcon.propTypes = {iconType: PropTypes.string};
 SpaceBetweenVerticallyIcon.defaultProps = {iconType: 'Alignment'};
-
-export default SpaceBetweenVerticallyIcon;

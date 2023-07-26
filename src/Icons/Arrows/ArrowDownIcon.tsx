@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const ArrowDownIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Arrows', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const ArrowDownIcon = React.forwardRef<SVGSVGElement, IconProps>(
 ArrowDownIcon.displayName = 'ArrowDownIcon';
 ArrowDownIcon.propTypes = {iconType: PropTypes.string};
 ArrowDownIcon.defaultProps = {iconType: 'Arrows'};
-
-export default ArrowDownIcon;

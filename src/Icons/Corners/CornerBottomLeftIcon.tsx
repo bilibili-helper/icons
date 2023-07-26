@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const CornerBottomLeftIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Corners', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const CornerBottomLeftIcon = React.forwardRef<SVGSVGElement, IconProps>(
 CornerBottomLeftIcon.displayName = 'CornerBottomLeftIcon';
 CornerBottomLeftIcon.propTypes = {iconType: PropTypes.string};
 CornerBottomLeftIcon.defaultProps = {iconType: 'Corners'};
-
-export default CornerBottomLeftIcon;

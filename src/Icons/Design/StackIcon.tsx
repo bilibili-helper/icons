@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const StackIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Design', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const StackIcon = React.forwardRef<SVGSVGElement, IconProps>(
 StackIcon.displayName = 'StackIcon';
 StackIcon.propTypes = {iconType: PropTypes.string};
 StackIcon.defaultProps = {iconType: 'Design'};
-
-export default StackIcon;

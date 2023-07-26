@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const SliderIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const SliderIcon = React.forwardRef<SVGSVGElement, IconProps>(
 SliderIcon.displayName = 'SliderIcon';
 SliderIcon.propTypes = {iconType: PropTypes.string};
 SliderIcon.defaultProps = {iconType: 'Components'};
-
-export default SliderIcon;

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const DashedIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Lines', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const DashedIcon = React.forwardRef<SVGSVGElement, IconProps>(
 DashedIcon.displayName = 'DashedIcon';
 DashedIcon.propTypes = {iconType: PropTypes.string};
 DashedIcon.defaultProps = {iconType: 'Lines'};
-
-export default DashedIcon;

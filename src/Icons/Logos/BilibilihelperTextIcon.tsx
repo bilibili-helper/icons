@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const BilibilihelperTextIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Logos', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const BilibilihelperTextIcon = React.forwardRef<SVGSVGElement, IconProps>
 BilibilihelperTextIcon.displayName = 'BilibilihelperTextIcon';
 BilibilihelperTextIcon.propTypes = {iconType: PropTypes.string};
 BilibilihelperTextIcon.defaultProps = {iconType: 'Logos'};
-
-export default BilibilihelperTextIcon;

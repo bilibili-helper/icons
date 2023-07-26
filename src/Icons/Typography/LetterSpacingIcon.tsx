@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const LetterSpacingIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Typography', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const LetterSpacingIcon = React.forwardRef<SVGSVGElement, IconProps>(
 LetterSpacingIcon.displayName = 'LetterSpacingIcon';
 LetterSpacingIcon.propTypes = {iconType: PropTypes.string};
 LetterSpacingIcon.defaultProps = {iconType: 'Typography'};
-
-export default LetterSpacingIcon;

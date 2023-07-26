@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const CheckboxIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const CheckboxIcon = React.forwardRef<SVGSVGElement, IconProps>(
 CheckboxIcon.displayName = 'CheckboxIcon';
 CheckboxIcon.propTypes = {iconType: PropTypes.string};
 CheckboxIcon.defaultProps = {iconType: 'Components'};
-
-export default CheckboxIcon;

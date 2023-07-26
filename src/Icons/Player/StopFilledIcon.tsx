@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const StopFilledIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Player', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const StopFilledIcon = React.forwardRef<SVGSVGElement, IconProps>(
 StopFilledIcon.displayName = 'StopFilledIcon';
 StopFilledIcon.propTypes = {iconType: PropTypes.string};
 StopFilledIcon.defaultProps = {iconType: 'Player'};
-
-export default StopFilledIcon;

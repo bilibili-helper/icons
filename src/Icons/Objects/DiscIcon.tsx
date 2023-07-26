@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const DiscIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const DiscIcon = React.forwardRef<SVGSVGElement, IconProps>(
 DiscIcon.displayName = 'DiscIcon';
 DiscIcon.propTypes = {iconType: PropTypes.string};
 DiscIcon.defaultProps = {iconType: 'Objects'};
-
-export default DiscIcon;

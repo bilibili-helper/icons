@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const RecordIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Player', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const RecordIcon = React.forwardRef<SVGSVGElement, IconProps>(
 RecordIcon.displayName = 'RecordIcon';
 RecordIcon.propTypes = {iconType: PropTypes.string};
 RecordIcon.defaultProps = {iconType: 'Player'};
-
-export default RecordIcon;

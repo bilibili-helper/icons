@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const AlignCenterVerticallyIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Alignment', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const AlignCenterVerticallyIcon = React.forwardRef<SVGSVGElement, IconPro
 AlignCenterVerticallyIcon.displayName = 'AlignCenterVerticallyIcon';
 AlignCenterVerticallyIcon.propTypes = {iconType: PropTypes.string};
 AlignCenterVerticallyIcon.defaultProps = {iconType: 'Alignment'};
-
-export default AlignCenterVerticallyIcon;

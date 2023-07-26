@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const SpeakerOffIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Player', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const SpeakerOffIcon = React.forwardRef<SVGSVGElement, IconProps>(
 SpeakerOffIcon.displayName = 'SpeakerOffIcon';
 SpeakerOffIcon.propTypes = {iconType: PropTypes.string};
 SpeakerOffIcon.defaultProps = {iconType: 'Player'};
-
-export default SpeakerOffIcon;

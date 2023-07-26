@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const LineHeightIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Typography', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const LineHeightIcon = React.forwardRef<SVGSVGElement, IconProps>(
 LineHeightIcon.displayName = 'LineHeightIcon';
 LineHeightIcon.propTypes = {iconType: PropTypes.string};
 LineHeightIcon.defaultProps = {iconType: 'Typography'};
-
-export default LineHeightIcon;

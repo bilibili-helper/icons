@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const AspectRatioIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Components', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const AspectRatioIcon = React.forwardRef<SVGSVGElement, IconProps>(
 AspectRatioIcon.displayName = 'AspectRatioIcon';
 AspectRatioIcon.propTypes = {iconType: PropTypes.string};
 AspectRatioIcon.defaultProps = {iconType: 'Components'};
-
-export default AspectRatioIcon;

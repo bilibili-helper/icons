@@ -1,6 +1,6 @@
 import * as React from 'react';
 import {IconProps} from '../types';
-import PropTypes from 'prop-types';
+import * as PropTypes from 'prop-types';
 
 export const EnvelopeOpenIcon = React.forwardRef<SVGSVGElement, IconProps>(
     ({color = 'currentColor', iconType = 'Objects', ...props}, forwardedRef) => {
@@ -10,5 +10,3 @@ export const EnvelopeOpenIcon = React.forwardRef<SVGSVGElement, IconProps>(
 EnvelopeOpenIcon.displayName = 'EnvelopeOpenIcon';
 EnvelopeOpenIcon.propTypes = {iconType: PropTypes.string};
 EnvelopeOpenIcon.defaultProps = {iconType: 'Objects'};
-
-export default EnvelopeOpenIcon;
