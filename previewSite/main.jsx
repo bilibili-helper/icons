@@ -146,6 +146,8 @@ const Wrapper = styled.div`
 `;
 const IconBlockWrapper = styled.div`
   position: relative;
+  display: flex;
+  justify-content: center;
   padding: 10px;
   min-width: max-content;
   box-sizing: border-box;
@@ -223,7 +225,7 @@ const IconLineWrapper = styled.div`
 
   .inner {
     margin-right: 12px;
-    width: 15px;
+    width: fit-content;
     height: 15px;
     flex-shrink: 0;
     display: flex;

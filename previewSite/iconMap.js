@@ -393,6 +393,10 @@ export default [
                 name: 'BilibilihelperTextIcon',
                 size: [75, 15],
             },
+            {
+                name: 'AcgboxTextIcon',
+                size: [75, 15],
+            },
         ],
     },
 ];
