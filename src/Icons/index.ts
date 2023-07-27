@@ -277,6 +277,7 @@ export {SpeakerLoudFilledIcon} from './Player/SpeakerLoudFilledIcon';
 export {SpeakerModerateIcon} from './Player/SpeakerModerateIcon';
 export {SpeakerModerateFilledIcon} from './Player/SpeakerModerateFilledIcon';
 export {SpeakerOffIcon} from './Player/SpeakerOffIcon';
+export {SpeakerOffFilledIcon} from './Player/SpeakerOffFilledIcon';
 export {SpeakerQuietIcon} from './Player/SpeakerQuietIcon';
 export {SpeakerQuietFilledIcon} from './Player/SpeakerQuietFilledIcon';
 export {SquareIcon} from './Abstract/SquareIcon';
