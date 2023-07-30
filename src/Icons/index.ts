@@ -1,5 +1,5 @@
 export {AccessibilityIcon} from './Abstract/AccessibilityIcon';
-export {AcgboxTextIcon} from './Logos/AcgboxTextIcon';
+export {AcghelperTextIcon} from './Logos/AcghelperTextIcon';
 export {ActivityLogIcon} from './Components/ActivityLogIcon';
 export {AlignBaselineIcon} from './Typography/AlignBaselineIcon';
 export {AlignBottomIcon} from './Alignment/AlignBottomIcon';
