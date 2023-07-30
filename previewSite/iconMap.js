@@ -394,7 +394,7 @@ export default [
                 size: [75, 15],
             },
             {
-                name: 'AcgboxTextIcon',
+                name: 'AcghelperTextIcon',
                 size: [75, 15],
             },
         ],
