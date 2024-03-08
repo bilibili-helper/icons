@@ -32,6 +32,8 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
+    --icon-size: 15px;
+    --gap-size: 15px;
   }
 
   * {
@@ -40,62 +42,72 @@ const GlobalStyle = createGlobalStyle`
 `;
 
 const Wrapper = styled.div`
-  --icon-size: 15px;
-  --gap-size: 15px;
-  margin-bottom: 64px;
-
+  //position: fixed;
+  //top: 0;
+  //left: 0;
+  //right: 0;
+  //bottom: 0;
+  //overflow: auto;
+  //margin-bottom: 64px;
+  
   .searcher {
-    position: fixed;
-    top: 16px;
-    left: 0;
+    position: sticky;
+    top: 32px;
+    left: 32px;
     grid-column: 1/-1;
-    margin: 32px 40px;
+    margin: 32px 32px;
     padding: 8px;
     width: 300px;
     height: 32px;
     box-sizing: border-box;
     font-size: 20px;
-    z-index: 1;
-
-    ::placeholder {
+    z-index: 2;
+    
+    &::placeholder {
       font-size: 16px;
     }
   }
-
+  
   .types {
-    padding-top: 128px;
+    //padding-top: 128px;
     display: flex;
     grid-template-columns: repeat(auto-fit, 100%);
-
+    
     &.hide {
       display: none;
     }
   }
-
+  
   .type {
     margin: 0 32px;
     //width: 300px;
     //min-width: 300px;
   }
-
+  
   .topic {
+    position: sticky;
+    top: 0;
     margin: 0px 0px 16px;
+    padding: 8px 0;
     text-align: center;
     font-size: 14px;
     font-weight: 400;
+    background-color: #fff;
     user-select: none;
+    white-space: nowrap;
+    z-index: 1;
   }
-
+  
   .icons {
     display: grid;
     //grid-template-columns: repeat(auto-fit, 50px);
-
-    grid-template-columns: repeat(4, calc(var(--icon-size) + 10px * 2));
+    
+    grid-template-columns: repeat(4, calc(var(--icon-size)));
     grid-gap: var(--gap-size);
     justify-content: center;
     margin: 0 auto;
   }
-
+  
   .tips {
     position: fixed;
     top: 38px;
@@ -110,35 +122,39 @@ const Wrapper = styled.div`
     pointer-events: none;
     opacity: 0;
     transition: opacity .3s;
-
+    border-radius: 3px;
+    box-shadow: 0 0 6px #eee;
+    z-index: 100;
+    
     &.show-tip {
       opacity: 1;
     }
-
+    
     .copied-icon {
       margin-left: 8px;
       padding: 10px;
       display: inline-block;
       vertical-align: bottom;
-      width: 15px;
       height: 15px;
       line-height: 15px;
       border-radius: 2px;
       background-color: antiquewhite;
     }
   }
-
+  
   .searched {
-    padding-top: 160px;
+    margin: 0 auto;
+    //padding-top: 160px;
+    width: max-content;
     display: grid;
     grid-template-columns: repeat(4, 250px);
     justify-content: center;
     grid-gap: var(--gap-size);
-
+    
     &.hide {
       display: none;
     }
-
+    
     .no-icons {
       font-weight: 300;
     }
@@ -148,21 +164,33 @@ const IconBlockWrapper = styled.div`
   position: relative;
   display: flex;
   justify-content: center;
-  padding: 10px;
+  //padding: 10px;
   min-width: max-content;
   box-sizing: border-box;
   border-radius: 2px;
   cursor: pointer;
 
-  :hover {
-    background-color: antiquewhite;
+  &:hover {
+    &::after {
+      content: "";
+      position: absolute;
+      top: calc(var(--icon-size) / -2);
+      left: calc(var(--icon-size) / -2);
+      width: calc(100% + var(--icon-size));
+      height: calc(100% + var(--icon-size));
+      background-color: antiquewhite;
+      border-radius: 2px;
+      z-index: -1;
+      //pointer-events: none;
+    }
 
     .icon-name {
       visibility: visible;
+      background-color: transparent;
     }
   }
 
-  :active {
+  &:active {
     background-color: blanchedalmond;
   }
 
@@ -185,17 +213,20 @@ const IconBlockWrapper = styled.div`
   .icon-name {
     position: absolute;
     bottom: 100%;
-    margin: 8px -64px 4px;
+    margin: 8px -64px 2px;
     width: calc(100% + 87px + 15px);
     font-size: 12px;
     word-break: break-word;
     text-align: center;
     //background-color: white;
     //z-index: 1;
-    zoom: 0.85;
+    //zoom: 0.85;
+    transform: scale(0.8);
+    transform-origin: bottom;
     visibility: hidden;
     user-select: none;
     pointer-events: none;
+    white-space: nowrap;
   }
 `;
 const IconLineWrapper = styled.div`
@@ -285,8 +316,8 @@ export default () => {
         setCopiedSVG(text);
         const textarea = document.createElement('textarea');
         textarea.value = text;
-        textarea.style.top = '-100000px';
-        textarea.style.left = '0';
+        textarea.style.top = '50%';
+        textarea.style.left = '50%';
         textarea.style.position = 'fixed';
         document.body.appendChild(textarea);
         textarea.focus();
@@ -320,7 +351,13 @@ export default () => {
                         {list.map((iconName) => {
                             if (typeof iconName === 'string') {
                                 const IconComponent = ReactIcons[iconName];
-                                return <IconBlockWrapper key={iconName} onClick={onClick}>
+                                return <IconBlockWrapper
+                                    key={iconName}
+                                    onClick={onClick}
+                                    style={{
+                                        '--size': 1,
+                                    }}
+                                >
                                     <div className="inner">
                                         <IconComponent/>
                                     </div>
@@ -331,7 +368,8 @@ export default () => {
                                 const IconComponent = ReactIcons[name];
                                 return <IconBlockWrapper key={name} onClick={onClick} style={{
                                     //gridColumnStart: 1,
-                                    gridColumn: `span ${((size[0] - 15) / 30)}`,
+                                    gridColumn: `span ${Math.ceil(size[0] / 30)}`,
+                                    '--size': Math.ceil(size[0] / 30),
                                 }}>
                                     <div className="inner">
                                         <IconComponent/>

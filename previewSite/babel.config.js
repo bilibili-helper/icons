@@ -27,10 +27,10 @@ module.exports = {
                 'legacy': true,
             },
         ],
-        '@babel/plugin-proposal-object-rest-spread',
+        '@babel/plugin-transform-object-rest-spread',
         '@babel/plugin-transform-object-assign',
         //'@babel/plugin-syntax-dynamic-import',
-        '@babel/plugin-proposal-class-properties',
+        '@babel/plugin-transform-class-properties',
         '@babel/plugin-proposal-function-bind',
         'lodash',
         [
