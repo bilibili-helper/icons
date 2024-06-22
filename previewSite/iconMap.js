@@ -41,6 +41,9 @@ export default [
             'SizeIcon',
             'MoveIcon',
             'AllSidesIcon',
+            'OneWayArrowLeftIcon',
+            'OneWayArrowRightIcon',
+            'TwoWayArrowIcon',
         ],
     },
     {
@@ -208,6 +211,7 @@ export default [
             'EraserIcon',
             'LeftWingIcon',
             'RightWingIcon',
+            'CatPawIcon'
         ],
     },
     {
@@ -399,4 +403,10 @@ export default [
             },
         ],
     },
+    {
+        type : 'Bilibili' ,
+        list : [
+            'BigMemberIcon'
+        ]
+    }
 ];
