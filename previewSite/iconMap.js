@@ -77,6 +77,9 @@ export default [
             'BarChartIcon',
             'DividerVerticalIcon',
             'DividerHorizontalIcon',
+            'SimpleVideoCardIcon',
+            'VideoCardIcon',
+            'CompleteVideoCardIcon'
         ],
     },
 
@@ -350,7 +353,7 @@ export default [
         ],
     },
     {
-        type: 'Borders and corners',
+        type: 'Borders and Corners',
         list: [
             'BorderAllIcon',
             'BorderSplitIcon',
