@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
     margin: 0;
     padding: 0;
     --icon-size: 15px;
-    --gap-size: 15px;
+    --gap-size: 30px;
   }
 
   * {
@@ -72,6 +72,7 @@ const Wrapper = styled.div`
     //padding-top: 128px;
     display: flex;
     grid-template-columns: repeat(auto-fit, 100%);
+    margin-bottom: var(--gap-size);
     
     &.hide {
       display: none;
@@ -87,7 +88,7 @@ const Wrapper = styled.div`
   .topic {
     position: sticky;
     top: 0;
-    margin: 0px 0px 16px;
+    margin: 16px 0px 16px;
     padding: 8px 0;
     text-align: center;
     font-size: 14px;
@@ -174,10 +175,10 @@ const IconBlockWrapper = styled.div`
     &::after {
       content: "";
       position: absolute;
-      top: calc(var(--icon-size) / -2);
-      left: calc(var(--icon-size) / -2);
-      width: calc(100% + var(--icon-size));
-      height: calc(100% + var(--icon-size));
+      top: calc(200% / -4);
+      left: calc(200% / -4);
+      width: calc(200%);
+      height: calc(200%);
       background-color: antiquewhite;
       border-radius: 2px;
       z-index: -1;
@@ -206,6 +207,8 @@ const IconBlockWrapper = styled.div`
 
     svg {
       pointer-events: none;
+      width: calc(var(--icon-size) * (var(--sizeX) * 2 - 1));
+      height: calc(var(--icon-size) * (var(--sizeY) * 2 - 1));
       //transition: transform .3s;
     }
   }
@@ -242,7 +245,7 @@ const IconLineWrapper = styled.div`
   cursor: pointer;
   //transition: border-color .3s;
 
-  :hover {
+  &:hover {
     background-color: antiquewhite;
 
     .icon-name {
@@ -250,7 +253,7 @@ const IconLineWrapper = styled.div`
     }
   }
 
-  :active {
+  &:active {
     background-color: blanchedalmond;
   }
 
@@ -266,6 +269,8 @@ const IconLineWrapper = styled.div`
 
     svg {
       pointer-events: none;
+      width: calc(var(--icon-size) * (var(--sizeX) * 2 - 1));
+      height: calc(var(--icon-size) * (var(--sizeY) * 2 - 1));
       //transition: transform .3s;
     }
   }
@@ -355,7 +360,8 @@ export default () => {
                                     key={iconName}
                                     onClick={onClick}
                                     style={{
-                                        '--size': 1,
+                                        '--sizeX': Math.ceil(1 / 30),
+                                        '--sizeY': Math.ceil(1 / 30),
                                     }}
                                 >
                                     <div className="inner">
@@ -369,7 +375,8 @@ export default () => {
                                 return <IconBlockWrapper key={name} onClick={onClick} style={{
                                     //gridColumnStart: 1,
                                     gridColumn: `span ${Math.ceil(size[0] / 30)}`,
-                                    '--size': Math.ceil(size[0] / 30),
+                                    '--sizeX': Math.ceil(size[0] / 30),
+                                    '--sizeY': Math.ceil(size[1] / 30),
                                 }}>
                                     <div className="inner">
                                         <IconComponent/>

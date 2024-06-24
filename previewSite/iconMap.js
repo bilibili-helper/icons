@@ -82,7 +82,6 @@ export default [
             'CompleteVideoCardIcon'
         ],
     },
-
     {
         type: 'Design',
         list: [
@@ -407,9 +406,17 @@ export default [
         ],
     },
     {
-        type : 'Bilibili' ,
-        list : [
-            'BigMemberIcon'
+        type: 'Bilibili',
+        list: [
+            'BigMemberIcon',
+            'BilibiliIcon'
+        ]
+    },
+    {
+        type: 'ACGHelper',
+        list: [
+            'CatPinkIcon',
+            'CatVipIcon',
         ]
     }
 ];
