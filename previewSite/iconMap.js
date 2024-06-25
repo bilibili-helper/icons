@@ -417,6 +417,11 @@ export default [
         list: [
             'CatPinkIcon',
             'CatVipIcon',
+            'CatNewIcon',
+            'CatUpdateIcon',
+            'CatGlassesIcon',
+            'CatPeaceIcon',
+            'CatSunIcon',
         ]
     }
 ];
