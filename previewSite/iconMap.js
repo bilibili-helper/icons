@@ -44,6 +44,7 @@ export default [
             'OneWayArrowLeftIcon',
             'OneWayArrowRightIcon',
             'TwoWayArrowIcon',
+            'EnterArrowIcon',
         ],
     },
     {
