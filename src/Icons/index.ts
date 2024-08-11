@@ -135,6 +135,7 @@ export {DrawingPinIcon} from './Objects/DrawingPinIcon';
 export {DrawingPinFilledIcon} from './Objects/DrawingPinFilledIcon';
 export {DropdownMenuIcon} from './Components/DropdownMenuIcon';
 export {EnterIcon} from './Abstract/EnterIcon';
+export {EnterArrowIcon} from './Arrows/EnterArrowIcon';
 export {EnterFullScreenIcon} from './Abstract/EnterFullScreenIcon';
 export {EnvelopeClosedIcon} from './Objects/EnvelopeClosedIcon';
 export {EnvelopeOpenIcon} from './Objects/EnvelopeOpenIcon';
