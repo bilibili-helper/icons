@@ -80,9 +80,14 @@ const Wrapper = styled.div`
   }
   
   .type {
-    margin: 0 32px;
+    padding: 0 32px;
+    border-right: 1px solid #eee;
     //width: 300px;
     //min-width: 300px;
+    
+    :last-of-type {
+      border: none;
+    }
   }
   
   .topic {

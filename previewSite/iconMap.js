@@ -214,7 +214,8 @@ export default [
             'EraserIcon',
             'LeftWingIcon',
             'RightWingIcon',
-            'CatPawIcon'
+            'CatPawIcon',
+            'FlaskIcon'
         ],
     },
     {

@@ -153,6 +153,7 @@ export {FileIcon} from './Objects/FileIcon';
 export {FileMinusIcon} from './Objects/FileMinusIcon';
 export {FilePlusIcon} from './Objects/FilePlusIcon';
 export {FileTextIcon} from './Objects/FileTextIcon';
+export {FlaskIcon} from './Objects/FlaskIcon';
 export {FontBoldIcon} from './Typography/FontBoldIcon';
 export {FontFamilyIcon} from './Typography/FontFamilyIcon';
 export {FontItalicIcon} from './Typography/FontItalicIcon';
